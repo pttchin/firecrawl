@@ -1,0 +1,50 @@
+name: Daily data.json (CST 09:00-11:00)
+
+on:
+  schedule:
+    # UTC 01:00/01:30/02:00/02:30/03:00 = Beijing 09:00/09:30/10:00/10:30/11:00
+    - cron: '0,30 1,2 * * *'
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Wake Codespace if sleeping
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          CODESPACE_NAME: ${{ vars.CODESPACE_NAME }}
+        run: python deploy/wake_codespace.py
+
+      - name: Query stack and write data.json
+        env:
+          FIRECRAWL_URL: ${{ vars.FIRECRAWL_URL }}
+          SEARXNG_URL: ${{ vars.SEARXNG_URL }}
+          SEARCH_QUERIES: ${{ vars.SEARCH_QUERIES }}
+        run: python deploy/daily_update.py
+
+      - name: Commit data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "data.json unchanged"
+          else
+            git commit -m "chore: refresh data.json"
+            git push
+          fi

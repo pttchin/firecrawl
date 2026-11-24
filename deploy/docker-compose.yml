@@ -1,0 +1,112 @@
+name: llm-search-stack
+
+services:
+  searxng:
+    image: searxng/searxng:latest
+    container_name: searxng
+    restart: unless-stopped
+    environment:
+      SEARXNG_BASE_URL: http://127.0.0.1:8080/
+    volumes:
+      - ./searxng/settings.yml:/etc/searxng/settings.yml:ro
+      - searxng-cache:/var/cache/searxng
+    ports:
+      - "8080:8080"
+    networks:
+      - stack
+
+  redis:
+    image: redis:alpine
+    container_name: fc-redis
+    restart: unless-stopped
+    command: redis-server --bind 0.0.0.0
+    networks:
+      - stack
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: fc-rabbitmq
+    restart: unless-stopped
+    command: rabbitmq-server
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "check_running"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    networks:
+      - stack
+
+  nuq-postgres:
+    image: ghcr.io/firecrawl/nuq-postgres:latest
+    container_name: fc-nuq-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    networks:
+      - stack
+
+  playwright-service:
+    image: ghcr.io/firecrawl/playwright-service:latest
+    container_name: fc-playwright
+    restart: unless-stopped
+    environment:
+      PORT: 3000
+      BLOCK_MEDIA: "true"
+      MAX_CONCURRENT_PAGES: "2"
+    networks:
+      - stack
+
+  api:
+    image: ghcr.io/firecrawl/firecrawl:latest
+    container_name: fc-api
+    restart: unless-stopped
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3002
+      ENV: local
+      REDIS_URL: redis://redis:6379
+      REDIS_RATE_LIMIT_URL: redis://redis:6379
+      PLAYWRIGHT_MICROSERVICE_URL: http://playwright-service:3000/scrape
+      SEARXNG_ENDPOINT: http://searxng:8080
+      SEARXNG_ENGINES: google,bing,duckduckgo,brave
+      SEARXNG_CATEGORIES: general
+      USE_DB_AUTHENTICATION: "false"
+      NUQ_RABBITMQ_URL: amqp://rabbitmq:5672
+      POSTGRES_HOST: nuq-postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+      NUM_WORKERS_PER_QUEUE: "2"
+      MAX_CONCURRENT_JOBS: "2"
+      BROWSER_POOL_SIZE: "1"
+      CRAWL_CONCURRENT_REQUESTS: "3"
+    ports:
+      - "3002:3002"
+    depends_on:
+      redis:
+        condition: service_started
+      rabbitmq:
+        condition: service_healthy
+      nuq-postgres:
+        condition: service_healthy
+      playwright-service:
+        condition: service_started
+      searxng:
+        condition: service_started
+    networks:
+      - stack
+
+networks:
+  stack:
+    driver: bridge
+
+volumes:
+  searxng-cache:

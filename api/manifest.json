@@ -1,0 +1,15 @@
+{
+  "name": "LLM-callable search data API",
+  "version": "1.0.0",
+  "description": "Static JSON endpoint refreshed daily 09:00-11:00 Asia/Shanghai by GitHub Actions from a Codespace-hosted SearXNG + Firecrawl stack.",
+  "endpoints": {
+    "data": "./data.json",
+    "searxng_json": "see data.json -> sources.searxng (/search?q=...&format=json)",
+    "firecrawl_search": "see data.json -> sources.firecrawl (POST /v0/search)"
+  },
+  "usage_for_llm": [
+    "Fetch data.json with any HTTP client.",
+    "Read results[].query and results[].firecrawl / results[].searxng.",
+    "Treat generated_at as the freshness marker; skip if older than 24 hours."
+  ]
+}

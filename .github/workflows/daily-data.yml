@@ -1,42 +1,35 @@
-name: Daily data.json (CST 09:00-11:00)
-
+name: Daily data
 on:
   schedule:
-    # UTC 01:00/01:30/02:00/02:30/03:00 = Beijing 09:00/09:30/10:00/10:30/11:00
     - cron: '0,30 1,2 * * *'
     - cron: '0 3 * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
-concurrency:
-  group: daily-data
-  cancel-in-progress: false
-
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Wake Codespace if sleeping
+      - name: Start search stack
+        run: |
+          docker compose -f deploy/docker-compose.yml up -d
+          for i in $(seq 1 60); do
+            code_s=$(curl -s -o /dev/null -w '%{http_code}' 'http://127.0.0.1:8080/search?q=test&format=json' || true)
+            code_f=$(curl -s -o /dev/null -w '%{http_code}' 'http://127.0.0.1:3002/health' || true)
+            if [ "$code_s" = "200" ] && { [ "$code_f" = "200" ] || [ "$code_f" = "404" ]; }; then break; fi
+            sleep 5
+          done
+          docker compose -f deploy/docker-compose.yml ps
+      - name: Query and write data.json
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
-          CODESPACE_NAME: ${{ vars.CODESPACE_NAME }}
-        run: python deploy/wake_codespace.py
-
-      - name: Query stack and write data.json
-        env:
-          FIRECRAWL_URL: ${{ vars.FIRECRAWL_URL }}
-          SEARXNG_URL: ${{ vars.SEARXNG_URL }}
-          SEARCH_QUERIES: ${{ vars.SEARCH_QUERIES }}
+          FIRECRAWL_URL: http://127.0.0.1:3002
+          SEARXNG_URL: http://127.0.0.1:8080
+          SEARCH_QUERIES: searxng json api,firecrawl self host,llm web search
         run: python deploy/daily_update.py
-
       - name: Commit data.json
         run: |
           git config user.name "github-actions[bot]"

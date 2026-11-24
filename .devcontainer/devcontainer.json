@@ -1,0 +1,39 @@
+{
+  "name": "searxng-firecrawl (2-core Codespace)",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest",
+      "enableNonRootDocker": "false",
+      "moby": "true"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    }
+  },
+  "forwardPorts": [8080, 3002, 8081],
+  "portsAttributes": {
+    "8080": {
+      "label": "SearXNG JSON API",
+      "visibility": "public",
+      "protocol": "http"
+    },
+    "3002": {
+      "label": "Firecrawl API",
+      "visibility": "public",
+      "protocol": "http"
+    },
+    "8081": {
+      "label": "Deployment status",
+      "visibility": "public",
+      "protocol": "http"
+    }
+  },
+  "postCreateCommand": "bash deploy/bootstrap.sh",
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}

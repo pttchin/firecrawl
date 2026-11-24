@@ -1,0 +1,34 @@
+# SearXNG configuration for the Codespace deployment.
+# JSON format is explicitly enabled so Firecrawl can consume search results.
+use_default_settings: true
+
+server:
+  bind_address: "0.0.0.0"
+  port: 8080
+  base_url: "http://127.0.0.1:8080/"
+  secret_key: "searxng-llm-stack-2026-11-24-change-me-32chars"
+
+search:
+  safe: 0
+  default_lang: zh-CN
+  formats:
+    - html
+    - json
+
+engines:
+  - name: google
+    engine: google
+    shortcut: go
+    disabled: false
+  - name: bing
+    engine: bing
+    shortcut: bi
+    disabled: false
+  - name: duckduckgo
+    engine: duckduckgo
+    shortcut: ddg
+    disabled: false
+  - name: brave
+    engine: brave
+    shortcut: br
+    disabled: false

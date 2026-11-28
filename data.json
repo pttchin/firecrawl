@@ -1,7 +1,7 @@
 {
   "schema": "llm-search-api/v1",
-  "generated_at": "2026-11-28T02:14:43.672963+00:00",
-  "generated_at_cst": "2026-11-28T10:14:43.672983+08:00",
+  "generated_at": "2026-11-28T03:25:11.534868+00:00",
+  "generated_at_cst": "2026-11-28T11:25:11.534887+08:00",
   "schedule": "daily 09:00-11:00 Asia/Shanghai",
   "sources": {
     "firecrawl": "http://127.0.0.1:3002",
@@ -59,116 +59,8 @@
           },
           {
             "template": "default.html",
-            "title": "SearXNG Search API with LiteLLM: Self-Hosted",
-            "content": "SearXNG is a free, open-source metasearch engine that aggregates results from multiple search engines while protecting user privacy. It can be self-hosted or ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRrmJdZNPcW6-QMaZktYfBNiN2nulw_H-m1NU0eRXzPqx8BwsAPlKwDe2pf",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              2
-            ],
-            "score": 0.5,
-            "category": "general",
-            "url": "https://docs.litellm.ai/docs/search/searxng",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "docs.litellm.ai",
-              "/docs/search/searxng",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "SearXNG: Enable JSON format in settings.yml by default to ... - GitHub",
-            "content": "SearXNG: Enable JSON format in settings.yml by default to support API integrations. ... formats list, so any tool querying SearXNG via its JSON API will fail ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoxrl1M596mg11FQfOQb719ZyS29zpGK7IQpTrjX40wE6W-k2Jr6IfOdss",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              3
-            ],
-            "score": 0.3333333333333333,
-            "category": "general",
-            "url": "https://github.com/community-scripts/ProxmoxVE/discussions/14394",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "github.com",
-              "/community-scripts/ProxmoxVE/discussions/14394",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "not returning json results, only html · searxng/searxng · ...",
-            "content": "How To Reproduce Setup searxng via docker compose. Enable json within settings.yml (search: formats: - json), restart docker container. Try to get json results via curl. Expected behavior Should get results as json.",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "https://imgs.search.brave.com/yoLsnNCGhwxVGy0yYmhsRDBKWbbGdFz_wcRqGyg8V2s/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9vcGVu/Z3JhcGguZ2l0aHVi/YXNzZXRzLmNvbS80/MjM3ZTdlOGNmZDkz/M2Q2ZWMyZjI1YzA1/OThkNDA3ZWEyNGVm/ZDAyMTVhNjI0MmRk/NDg5MTM2MzM2Mzc0/NDU2L3NlYXJ4bmcv/c2VhcnhuZy9kaXNj/dXNzaW9ucy8zNTQy",
-            "publishedDate": null,
-            "pubdate": null,
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "brave"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              3
-            ],
-            "score": 0.3333333333333333,
-            "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUgtfX8kC7tw0g7YEzUYZGEJW0MJni1ypIf1x5E3qwwrifcytI6kiJ9Wl1bb1RxCnr-fJ1vo8I9knkqlDVWllF2pdefTm90hEefoSViAQUWL3oQJ8Un64id1RyNO5HGg6YOfU2RIq9_ZMrhwHIiw8UDN0-Dq7oSqPtL-8RCUwUzo0ZGQedGeWTCw",
-            "engine": "brave",
-            "parsed_url": [
-              "http",
-              "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUgtfX8kC7tw0g7YEzUYZGEJW0MJni1ypIf1x5E3qwwrifcytI6kiJ9Wl1bb1RxCnr-fJ1vo8I9knkqlDVWllF2pdefTm90hEefoSViAQUWL3oQJ8Un64id1RyNO5HGg6YOfU2RIq9_ZMrhwHIiw8UDN0-Dq7oSqPtL-8RCUwUzo0ZGQedGeWTCw",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
             "title": "JSON Engine - SearXNG Documentation (2026.11.23+a7163d091)",
-            "content": "Here is a simple example of a JSON engine configure in the engines: section, further read Engine Overview. - name : mdn engine : ...",
+            "content": "The query string is a slash / separated path of JSON key names. Array entries can be specified using the index or can be omitted entirely, in which case each entry is considered - most implementations will default to the first entry in this case.",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
@@ -181,14 +73,16 @@
             "metadata": "",
             "priority": "",
             "engines": [
-              "google cse"
+              "google cse",
+              "duckduckgo"
             ],
             "open_group": false,
             "close_group": false,
             "positions": [
+              2,
               4
             ],
-            "score": 0.25,
+            "score": 1.5,
             "category": "general",
             "url": "https://docs.searxng.org/dev/engines/json_engine.html",
             "engine": "google cse",
@@ -222,9 +116,9 @@
             "open_group": false,
             "close_group": false,
             "positions": [
-              5
+              3
             ],
-            "score": 0.2,
+            "score": 0.3333333333333333,
             "category": "general",
             "url": "https://blog.csdn.net/qq_33906319/article/details/161106984",
             "engine": "google cse",
@@ -232,6 +126,114 @@
               "https",
               "blog.csdn.net",
               "/qq_33906319/article/details/161106984",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "not returning json results, only html · searxng/searxng · ...",
+            "content": "How To Reproduce Setup searxng via docker compose. Enable json within settings.yml (search: formats: - json), restart docker container. Try to get json results via curl. Expected behavior Should get results as json.",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://imgs.search.brave.com/yoLsnNCGhwxVGy0yYmhsRDBKWbbGdFz_wcRqGyg8V2s/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9vcGVu/Z3JhcGguZ2l0aHVi/YXNzZXRzLmNvbS80/MjM3ZTdlOGNmZDkz/M2Q2ZWMyZjI1YzA1/OThkNDA3ZWEyNGVm/ZDAyMTVhNjI0MmRk/NDg5MTM2MzM2Mzc0/NDU2L3NlYXJ4bmcv/c2VhcnhuZy9kaXNj/dXNzaW9ucy8zNTQy",
+            "publishedDate": null,
+            "pubdate": null,
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "brave"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              3
+            ],
+            "score": 0.3333333333333333,
+            "category": "general",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsygh0uHAGYpFTXoxKSPVxdlCDDJZJX1xKGWNnUPoBs69mcWVrOpELXUg95AnNCm_afBU-o-Shvsz5lXKICavcvtekNE586uYzUgCoqHNaG9R9uOZm__xLwOSnsNx0Q5q0O4mKulHibVLjQ4ffYIEo77SheseOPFD9eTq0iv-exIaI0FffuZOkGBw",
+            "engine": "brave",
+            "parsed_url": [
+              "http",
+              "",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsygh0uHAGYpFTXoxKSPVxdlCDDJZJX1xKGWNnUPoBs69mcWVrOpELXUg95AnNCm_afBU-o-Shvsz5lXKICavcvtekNE586uYzUgCoqHNaG9R9uOZm__xLwOSnsNx0Q5q0O4mKulHibVLjQ4ffYIEo77SheseOPFD9eTq0iv-exIaI0FffuZOkGBw",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "SearXNG Search API with LiteLLM: Self-Hosted",
+            "content": "SearXNG is a free, open-source metasearch engine that aggregates results from multiple search engines while protecting user privacy. It can be self-hosted or ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRrmJdZNPcW6-QMaZktYfBNiN2nulw_H-m1NU0eRXzPqx8BwsAPlKwDe2pf",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              4
+            ],
+            "score": 0.25,
+            "category": "general",
+            "url": "https://docs.litellm.ai/docs/search/searxng",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "docs.litellm.ai",
+              "/docs/search/searxng",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "SearXNG: Enable JSON format in settings.yml by default to ... - GitHub",
+            "content": "SearXNG: Enable JSON format in settings.yml by default to support API integrations. ... formats list, so any tool querying SearXNG via its JSON API will fail ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRoxrl1M596mg11FQfOQb719ZyS29zpGK7IQpTrjX40wE6W-k2Jr6IfOdss",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              5
+            ],
+            "score": 0.2,
+            "category": "general",
+            "url": "https://github.com/community-scripts/ProxmoxVE/discussions/14394",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "github.com",
+              "/community-scripts/ProxmoxVE/discussions/14394",
               "",
               "",
               ""
@@ -262,12 +264,12 @@
             ],
             "score": 0.2,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUhDiGrL6MPp5p613MBbjTOlSc4-hbI8k9uqrpWXH5ZGXIEd3BrfQJ_37tiFWKx-yDSbCd7rhaXq-lRY7ImCUlP2wqolYjQ_skgGdknLjpM2DsgjSRuvQ119l-R1Lywk5s3666istuQgp7hF5W32YDTDAyTHOP1a7x9aKa6JcB58IFRxlYE_9AEmlSj_ljcZXAhccI",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyhI2Ys0pde_Ok0VpZ3KmfFCMCKXRo792EdOssYTmC2gztqabYCmIctXCsOCMcXxs0wGPUXeSWM6oRIqp1xvqeqv15QxeyaK3Y58L_oIALitYU1vn_SWV1ISM4hefFZ4h4kB28wyTFfr-nOV01XcXhm5yfYLkpV_Dz5jdgXDqd4Lvf12KWAP0RkNYNPrBMTDnEeXIB",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUhDiGrL6MPp5p613MBbjTOlSc4-hbI8k9uqrpWXH5ZGXIEd3BrfQJ_37tiFWKx-yDSbCd7rhaXq-lRY7ImCUlP2wqolYjQ_skgGdknLjpM2DsgjSRuvQ119l-R1Lywk5s3666istuQgp7hF5W32YDTDAyTHOP1a7x9aKa6JcB58IFRxlYE_9AEmlSj_ljcZXAhccI",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyhI2Ys0pde_Ok0VpZ3KmfFCMCKXRo792EdOssYTmC2gztqabYCmIctXCsOCMcXxs0wGPUXeSWM6oRIqp1xvqeqv15QxeyaK3Y58L_oIALitYU1vn_SWV1ISM4hefFZ4h4kB28wyTFfr-nOV01XcXhm5yfYLkpV_Dz5jdgXDqd4Lvf12KWAP0RkNYNPrBMTDnEeXIB",
               "",
               "",
               ""
@@ -334,12 +336,12 @@
             ],
             "score": 0.16666666666666666,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUhRnZb9AJCojoEXdJ5LXrEmGfBADdOCZBftJPpALv3baS-kOX1zpt20nHG0V7LcbI5lYZpQ7llz3qzOMNjWG0nK1qBc-0ixH3pb6NYnQXktGO9_06l29Kd2nO34xMjhOGi7mFq95u7TQEVGO4s3OSX7HxHdDOZhRDhOFQQaVkpQI",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyhZ94SFQZlaBV5GPAQ6f7Wcw9e229Hu89VKqpI6t8l20N2ddRe0Qspa3b5Hxpd7XtqRxw7a5Qcxjl0LtPNGa42oG_FdWJaZk0UzNWHrFQq6QdPHDQLh-E3q2WqRGXR8rMM53uY2UQQY4JFifWHjGBFeYr1PuX5A-Pk0ob19Vy5wM",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUhRnZb9AJCojoEXdJ5LXrEmGfBADdOCZBftJPpALv3baS-kOX1zpt20nHG0V7LcbI5lYZpQ7llz3qzOMNjWG0nK1qBc-0ixH3pb6NYnQXktGO9_06l29Kd2nO34xMjhOGi7mFq95u7TQEVGO4s3OSX7HxHdDOZhRDhOFQQaVkpQI",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyhZ94SFQZlaBV5GPAQ6f7Wcw9e229Hu89VKqpI6t8l20N2ddRe0Qspa3b5Hxpd7XtqRxw7a5Qcxjl0LtPNGa42oG_FdWJaZk0UzNWHrFQq6QdPHDQLh-E3q2WqRGXR8rMM53uY2UQQY4JFifWHjGBFeYr1PuX5A-Pk0ob19Vy5wM",
               "",
               "",
               ""
@@ -348,7 +350,7 @@
           {
             "url": "https://priv.au/",
             "title": "SearXNG",
-            "content": "SearXNG — a privacy-respecting, open metasearch engine New google engine fixes are being tested - 16 Nov 2026 🇦🇺 Powered by …",
+            "content": "SearXNG — a privacy-respecting, open metasearch engine New google engine fixes are being tested - 16 Nov 2026 🇦🇺 Powered by …阅读更多",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -398,12 +400,12 @@
             ],
             "score": 1.0,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUgBk9jwQzQIgaMMQIO76f8n2U0Ciyv0ysroQzjRnFPZpJepp-bRRzYOEchUBYZ8N4EqZHZEJEoR8YafC8WlHmQg0CQ4otJXiWB3_2vwrVFxOBdbZVC36fyIMQJsElRyCbPPWoZWil9ZAfx2G1Jyjbh8mbikpVi0IuHzuiMwPrVNkM",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsygC_wFL8olj6qxmybTg-jg2u_wMRrk4lGOQ9WbXyabggFMDilZwGh3PaSp6pT_D-hT7BX8rt-VN-BwtrYbC1OH324TqkPVVDCRkx2ExW6Ae7Fk7pHRqTIlkxqx7u26QmScJehjS7joBH2QX-IHm6wRbl33GCo_nI4EFmRCYZNGe0A",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUgBk9jwQzQIgaMMQIO76f8n2U0Ciyv0ysroQzjRnFPZpJepp-bRRzYOEchUBYZ8N4EqZHZEJEoR8YafC8WlHmQg0CQ4otJXiWB3_2vwrVFxOBdbZVC36fyIMQJsElRyCbPPWoZWil9ZAfx2G1Jyjbh8mbikpVi0IuHzuiMwPrVNkM",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsygC_wFL8olj6qxmybTg-jg2u_wMRrk4lGOQ9WbXyabggFMDilZwGh3PaSp6pT_D-hT7BX8rt-VN-BwtrYbC1OH324TqkPVVDCRkx2ExW6Ae7Fk7pHRqTIlkxqx7u26QmScJehjS7joBH2QX-IHm6wRbl33GCo_nI4EFmRCYZNGe0A",
               "",
               "",
               ""
@@ -432,9 +434,9 @@
             "close_group": false,
             "positions": [
               7,
-              4
+              5
             ],
-            "score": 0.7857142857142857,
+            "score": 0.6857142857142857,
             "category": "general",
             "url": "https://juejin.cn/post/7421815032184782860",
             "engine": "google cse",
@@ -448,15 +450,15 @@
             ]
           },
           {
-            "url": "https://github.com/searxng/searxng",
-            "title": "GitHub - searxng/searxng: SearXNG is a free internet metasearch …",
-            "content": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are …",
+            "url": "https://docs.searxng.org/",
+            "title": "SearXNG Documentation (2026.11.26+b5605b8f2)",
+            "content": "SearXNG is a free internet metasearch engine which aggregates results from up to 261 search services. Users are neither tracked …阅读更多",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
               "https",
-              "github.com",
-              "/searxng/searxng",
+              "docs.searxng.org",
+              "/",
               "",
               "",
               ""
@@ -474,6 +476,42 @@
             "category": "general",
             "publishedDate": null,
             "iframe_src": null
+          },
+          {
+            "template": "default.html",
+            "title": "在 Docker 中运行 SearXNG 并启用 JSON API 访问 - CSDN博客",
+            "content": "本文介绍在 Docker 运行的 SearXNG 实例中启用 JSON 格式 API 访问的步骤，包括基本运行命令、自定义配置、验证 API 是否工作、在 Java 代码中使用，还给出常见问题的解决办法，如检查容器日志、配置及防火墙等。",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "duckduckgo"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              2
+            ],
+            "score": 0.5,
+            "category": "general",
+            "url": "https://blog.csdn.net/weixin_42871919/article/details/144586503",
+            "engine": "duckduckgo",
+            "parsed_url": [
+              "https",
+              "blog.csdn.net",
+              "/weixin_42871919/article/details/144586503",
+              "",
+              "",
+              ""
+            ]
           },
           {
             "template": "default.html",
@@ -500,16 +538,44 @@
             ],
             "score": 0.5,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUgSGbytrXYsIkNzN4O8Iy3gkP68Q4I1MJ1nVJvzwc8CIbrPSrKB2uULyyzTesquyQoxt11vab_YsyCor-mPiuTErjBCZXg3lmDpIZh4hox2J8IWFo-0rTSVbkHHeJu-DdJTMbiDle1j8VtiLEQkMkGx8Nb9N39AdqjpSH7jhHNv58bPKcBbAXY5IL",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsygf8Bcs6LNnrrumt4JBdj7X92D851CyxPoD20tapUIiRUY68_Iql9XjD5dkLeh8X5cuZmgPEuz7zg46_06e05lamO5wHrajoFC6AF656IE36d-N79T_tteuKPQKuCOgdKMclzv0bU2F_dwFRloeW08nnRRhgf0uLFOPqkrFmgV1ulXlVAMZ3NCpAH",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUgSGbytrXYsIkNzN4O8Iy3gkP68Q4I1MJ1nVJvzwc8CIbrPSrKB2uULyyzTesquyQoxt11vab_YsyCor-mPiuTErjBCZXg3lmDpIZh4hox2J8IWFo-0rTSVbkHHeJu-DdJTMbiDle1j8VtiLEQkMkGx8Nb9N39AdqjpSH7jhHNv58bPKcBbAXY5IL",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsygf8Bcs6LNnrrumt4JBdj7X92D851CyxPoD20tapUIiRUY68_Iql9XjD5dkLeh8X5cuZmgPEuz7zg46_06e05lamO5wHrajoFC6AF656IE36d-N79T_tteuKPQKuCOgdKMclzv0bU2F_dwFRloeW08nnRRhgf0uLFOPqkrFmgV1ulXlVAMZ3NCpAH",
               "",
               "",
               ""
             ]
+          },
+          {
+            "url": "https://github.com/searxng/searxng",
+            "title": "GitHub - searxng/searxng: SearXNG is a free internet metasearch …",
+            "content": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are …阅读更多",
+            "engine": "bing",
+            "template": "default.html",
+            "parsed_url": [
+              "https",
+              "github.com",
+              "/searxng/searxng",
+              "",
+              "",
+              ""
+            ],
+            "img_src": "",
+            "thumbnail": "",
+            "priority": "",
+            "engines": [
+              "bing"
+            ],
+            "positions": [
+              3
+            ],
+            "score": 0.3333333333333333,
+            "category": "general",
+            "publishedDate": null,
+            "iframe_src": null
           },
           {
             "template": "default.html",
@@ -532,9 +598,9 @@
             "open_group": false,
             "close_group": false,
             "positions": [
-              2
+              3
             ],
-            "score": 0.5,
+            "score": 0.3333333333333333,
             "category": "general",
             "url": "https://blog.csdn.net/weixin_65552509/article/details/149323853",
             "engine": "duckduckgo",
@@ -548,73 +614,9 @@
             ]
           },
           {
-            "url": "https://docs.searxng.org/",
-            "title": "SearXNG Documentation (2026.11.26+b5605b8f2)",
-            "content": "SearXNG is a free internet metasearch engine which aggregates results from up to 261 search services. Users are neither tracked …",
-            "engine": "bing",
-            "template": "default.html",
-            "parsed_url": [
-              "https",
-              "docs.searxng.org",
-              "/",
-              "",
-              "",
-              ""
-            ],
-            "img_src": "",
-            "thumbnail": "",
-            "priority": "",
-            "engines": [
-              "bing"
-            ],
-            "positions": [
-              3
-            ],
-            "score": 0.3333333333333333,
-            "category": "general",
-            "publishedDate": null,
-            "iframe_src": null
-          },
-          {
-            "template": "default.html",
-            "title": "在 Docker 中运行 SearXNG 并启用 JSON API 访问 - CSDN博客",
-            "content": "本文介绍在 Docker 运行的 SearXNG 实例中启用 JSON 格式 API 访问的步骤，包括基本运行命令、自定义配置、验证 API 是否工作、在 Java 代码中使用，还给出常见问题的解决办法，如检查容器日志、配置及防火墙等。",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "duckduckgo"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              3
-            ],
-            "score": 0.3333333333333333,
-            "category": "general",
-            "url": "https://blog.csdn.net/weixin_42871919/article/details/144586503",
-            "engine": "duckduckgo",
-            "parsed_url": [
-              "https",
-              "blog.csdn.net",
-              "/weixin_42871919/article/details/144586503",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
             "url": "https://en.wikipedia.org/wiki/SearXNG",
             "title": "SearXNG - Wikipedia",
-            "content": "The SearXNG results page with \"wikipedia\" as the search term SearXNG is a metasearch engine forked from the discontinued searX. …",
+            "content": "The SearXNG results page with \"wikipedia\" as the search term SearXNG is a metasearch engine forked from the discontinued searX. …阅读更多",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -664,76 +666,12 @@
             ],
             "score": 0.25,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUg8eYlSwtqMspXm9xTEhP5BDMkd0vNtrAJyLy7ENSMz5zkoV9Q-DTjL0yQps5tq7fzy1pi7rJX7cn0jRZaU4NaXPT_fz1HnHMC1-hp8W4iHW92Dv2PIGifx1iHZSrCyXrkklsE-fbk8LP7s734mzNYcLvXBIZoLW2CZNGOpXCCIhiJy2KAIuyRVOYw8x5TgV9HdReCg",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyg3pP_lEOmZLPrAsEf_FAOXQl27Qt-P8336PmWn5bIemdVxsAKBCDs7y5BsI2niF3kdGCz6Aq00Gp-nfoDGA8PS0ozxd4TR6CkKlldZfULP9I1Hre9BjCTH6ItX-pYBqgR7rWz2oiPhKbODWrGYJb1jRhAimvNTbjHBV1sM1QknVNs__Rv3voVT-V0PrK-3-V0PuNCg",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUg8eYlSwtqMspXm9xTEhP5BDMkd0vNtrAJyLy7ENSMz5zkoV9Q-DTjL0yQps5tq7fzy1pi7rJX7cn0jRZaU4NaXPT_fz1HnHMC1-hp8W4iHW92Dv2PIGifx1iHZSrCyXrkklsE-fbk8LP7s734mzNYcLvXBIZoLW2CZNGOpXCCIhiJy2KAIuyRVOYw8x5TgV9HdReCg",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "url": "https://github.com/searxng",
-            "title": "SearXNG.org - GitHub",
-            "content": "searxng Public SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. …",
-            "engine": "bing",
-            "template": "default.html",
-            "parsed_url": [
-              "https",
-              "github.com",
-              "/searxng",
-              "",
-              "",
-              ""
-            ],
-            "img_src": "",
-            "thumbnail": "",
-            "priority": "",
-            "engines": [
-              "bing"
-            ],
-            "positions": [
-              5
-            ],
-            "score": 0.2,
-            "category": "general",
-            "publishedDate": null,
-            "iframe_src": null
-          },
-          {
-            "template": "default.html",
-            "title": "searxng/searx/engines/json_engine.py at master - GitHub",
-            "content": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled. - searxng/searx/engines/json_engine.py at master · searxng/searxng",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "duckduckgo"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              5
-            ],
-            "score": 0.2,
-            "category": "general",
-            "url": "https://github.com/searxng/searxng/blob/master/searx/engines/json_engine.py",
-            "engine": "duckduckgo",
-            "parsed_url": [
-              "https",
-              "github.com",
-              "/searxng/searxng/blob/master/searx/engines/json_engine.py",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyg3pP_lEOmZLPrAsEf_FAOXQl27Qt-P8336PmWn5bIemdVxsAKBCDs7y5BsI2niF3kdGCz6Aq00Gp-nfoDGA8PS0ozxd4TR6CkKlldZfULP9I1Hre9BjCTH6ItX-pYBqgR7rWz2oiPhKbODWrGYJb1jRhAimvNTbjHBV1sM1QknVNs__Rv3voVT-V0PrK-3-V0PuNCg",
               "",
               "",
               ""
@@ -760,6 +698,34 @@
               "bing"
             ],
             "positions": [
+              5
+            ],
+            "score": 0.2,
+            "category": "general",
+            "publishedDate": null,
+            "iframe_src": null
+          },
+          {
+            "url": "https://github.com/searxng",
+            "title": "SearXNG.org - GitHub",
+            "content": "searxng Public SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. …阅读更多",
+            "engine": "bing",
+            "template": "default.html",
+            "parsed_url": [
+              "https",
+              "github.com",
+              "/searxng",
+              "",
+              "",
+              ""
+            ],
+            "img_src": "",
+            "thumbnail": "",
+            "priority": "",
+            "engines": [
+              "bing"
+            ],
+            "positions": [
               6
             ],
             "score": 0.16666666666666666,
@@ -769,8 +735,8 @@
           },
           {
             "template": "default.html",
-            "title": "Search API — SearXNG Documentation (2025.5.30+37d851fb2)",
-            "content": "Thus, SearXNG supports syntax of each search service. For example, site:github.com SearXNG is a valid query for Google. However, if simply the query above is passed to any search engine which does not filter its results based on this syntax, you might not get the results you wanted. See more at Search syntax categoriesoptional",
+            "title": "searxng/searx/engines/json_engine.py at master - GitHub",
+            "content": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled. - searxng/searx/engines/json_engine.py at master · searxng/searxng",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
@@ -792,12 +758,12 @@
             ],
             "score": 0.16666666666666666,
             "category": "general",
-            "url": "https://return42.github.io/searxng/dev/search_api.html",
+            "url": "https://github.com/searxng/searxng/blob/master/searx/engines/json_engine.py",
             "engine": "duckduckgo",
             "parsed_url": [
               "https",
-              "return42.github.io",
-              "/searxng/dev/search_api.html",
+              "github.com",
+              "/searxng/searxng/blob/master/searx/engines/json_engine.py",
               "",
               "",
               ""
@@ -806,7 +772,7 @@
           {
             "url": "https://docs.searxng.org/admin/installation-docker.html",
             "title": "Installation container - SearXNG Documentation …",
-            "content": "Important Understanding container architecture basics is essential for properly maintaining your SearXNG instance. This guide …",
+            "content": "Important Understanding container architecture basics is essential for properly maintaining your SearXNG instance. This guide …阅读更多",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -833,8 +799,8 @@
           },
           {
             "template": "default.html",
-            "title": "探索SearxNG Search API：打造个性化搜索体验",
-            "content": "SearxNG是一个开源、去中心化的元搜索引擎，可以通过自托管实例为使用者提供更大的灵活性和控制权。 这篇文章将介绍如何在LangChain中使用SearxNG Search API，并为您提供实施的实用指南。 1. 安装与设置. 尽管可以利用公共的Searx实例，但由于这些实例通常不提供API访问权限并且有请求频率限制，建议您部署自己的SearxNG实例。 请参阅 SearxNG文档 获取详细的安装说明。 formats: - html. - json. 应返回一个包含搜索结果的JSON对象。 2. SearxNG API封装器. 要使用封装器，您需要将SearxNG实例的主机信息传递给封装器，可以通过以下两种方式： 在创建实例时，使用命名参数 searx_host。",
+            "title": "Self-host SearXNG with Docker, private search and a JSON API",
+            "content": "Run SearXNG, the private metasearch engine, in Docker on an exe.dev VM: your browser's default search behind exe.dev login, plus a JSON API for scripts and agents.",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
@@ -856,12 +822,12 @@
             ],
             "score": 0.14285714285714285,
             "category": "general",
-            "url": "https://juejin.cn/post/7461234864311566390",
+            "url": "https://exe.dev/deploy/searxng",
             "engine": "duckduckgo",
             "parsed_url": [
               "https",
-              "juejin.cn",
-              "/post/7461234864311566390",
+              "exe.dev",
+              "/deploy/searxng",
               "",
               "",
               ""
@@ -870,7 +836,7 @@
           {
             "url": "https://en.wikipedia.org/wiki/Searx",
             "title": "Searx - Wikipedia",
-            "content": "Searx (/ sɜːrks /; stylized as searX) is a discontinued free and open-source metasearch engine, [4] available under the GNU Affero …",
+            "content": "Searx (/ sɜːrks /; stylized as searX) is a discontinued free and open-source metasearch engine, [4] available under the GNU Affero …阅读更多",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -897,8 +863,8 @@
           },
           {
             "template": "default.html",
-            "title": "SearXNG 本地部署与 MCP 接入：搭建私有搜索引擎做技术 ...",
-            "content": "部署在本地 Docker 中， 免费、无 API Key、无调用次数限制、无搜索历史泄漏。 本文从零开始，完成 SearXNG 本地部署、中文引擎配置、JSON API 开启， 再通过 MCP 协议接入 Claude Code，最后给出三个真实使用场景和一套搜索策略。",
+            "title": "Search API — SearXNG Documentation (2025.5.30+37d851fb2)",
+            "content": "Thus, SearXNG supports syntax of each search service. For example, site:github.com SearXNG is a valid query for Google. However, if simply the query above is passed to any search engine which does not filter its results based on this syntax, you might not get the results you wanted. See more at Search syntax categoriesoptional",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
@@ -920,16 +886,44 @@
             ],
             "score": 0.125,
             "category": "general",
-            "url": "https://kl5212840-lang.github.io/robintools/articles/searxng-doc-review-workflow",
+            "url": "https://return42.github.io/searxng/dev/search_api.html",
             "engine": "duckduckgo",
             "parsed_url": [
               "https",
-              "kl5212840-lang.github.io",
-              "/robintools/articles/searxng-doc-review-workflow",
+              "return42.github.io",
+              "/searxng/dev/search_api.html",
               "",
               "",
               ""
             ]
+          },
+          {
+            "url": "https://paulgo.io/",
+            "title": "PaulGO - SearXNG",
+            "content": "SearXNG — a privacy-respecting, open metasearch engine Powered by SearXNG - 2026.11.23+a7163d091 — a privacy-respecting, …阅读更多",
+            "engine": "bing",
+            "template": "default.html",
+            "parsed_url": [
+              "https",
+              "paulgo.io",
+              "/",
+              "",
+              "",
+              ""
+            ],
+            "img_src": "",
+            "thumbnail": "",
+            "priority": "",
+            "engines": [
+              "bing"
+            ],
+            "positions": [
+              9
+            ],
+            "score": 0.1111111111111111,
+            "category": "general",
+            "publishedDate": null,
+            "iframe_src": null
           },
           {
             "template": "default.html",
@@ -956,12 +950,12 @@
             ],
             "score": 0.14285714285714285,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUhgCkFiGYfAtwz9eUpXExPXPu1DFLQd50tJmxPG_wyXH9n6vZPed7O1OeUCAcoeLLl7rg17aG5G_CdOd8vuHZzFxTx8P2QouS0ZsvTFNDzzDyv2qiUL-bEMiYysFfRnMLfc_B8EWyjbX4JBZgIH01i7CxZh-37k-zWtgzjU9sK86HrCVDXqrsDQ",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyhsjarOcVxprIt-QieyvAOC4XKGGYenHifdMtDDYfcgyySUFQFkbu7Wcj9X-zFPlLTAMtrJNVxEaHkeCgyaWMMYsAgeFm7wnfOVlKsHY_QqLisLdSyuzNqX8QTIzviFuSasFKE8fzvh-MS2R-30YUsanbwU9hPyMWkRR1FGgnWeXHnnfy40GnDw",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUhgCkFiGYfAtwz9eUpXExPXPu1DFLQd50tJmxPG_wyXH9n6vZPed7O1OeUCAcoeLLl7rg17aG5G_CdOd8vuHZzFxTx8P2QouS0ZsvTFNDzzDyv2qiUL-bEMiYysFfRnMLfc_B8EWyjbX4JBZgIH01i7CxZh-37k-zWtgzjU9sK86HrCVDXqrsDQ",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyhsjarOcVxprIt-QieyvAOC4XKGGYenHifdMtDDYfcgyySUFQFkbu7Wcj9X-zFPlLTAMtrJNVxEaHkeCgyaWMMYsAgeFm7wnfOVlKsHY_QqLisLdSyuzNqX8QTIzviFuSasFKE8fzvh-MS2R-30YUsanbwU9hPyMWkRR1FGgnWeXHnnfy40GnDw",
               "",
               "",
               ""
@@ -969,12 +963,12 @@
           },
           {
             "template": "default.html",
-            "title": "OpenSERP vs SearXNG | Metasearch Frontend vs SERP API",
-            "content": "2026年10月22日 ... SearXNG offers a search interface with optional JSON output. OpenSERP offers structured SERP JSON for Both support JSON. Choose by the interface ...",
+            "title": "Dify 集成SearXNG 搜索引擎：Docker 部署配置实战-腾讯云开发者社区",
+            "content": "2026年1月18日 ... JSON API 支持是与AI 应用集成的关键。SearXNG 不仅提供Web 界面，还支持JSON 格式的API 响应，可以直接被程序调用。Dify 的SearXNG 插件正是基于这个API ...",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8kA9h6c60IM1RNVk5FRzoZBYhqy9bjAFXnSEC6Zq3M0FAY1E4hueL0_4",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJl4bA9Wnv5lb7B6mKWODIfvu4wubUt0JWhBcuo10a3oAmzfdS7_PEB9mP",
             "publishedDate": null,
             "pubdate": "",
             "length": null,
@@ -992,12 +986,12 @@
             ],
             "score": 0.125,
             "category": "general",
-            "url": "https://openserp.org/comparisons/searxng/",
+            "url": "https://cloud.tencent.com/developer/article/2619653",
             "engine": "google cse",
             "parsed_url": [
               "https",
-              "openserp.org",
-              "/comparisons/searxng/",
+              "cloud.tencent.com",
+              "/developer/article/2619653",
               "",
               "",
               ""
@@ -1028,12 +1022,12 @@
             ],
             "score": 0.125,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUh2VPN_jgHnM5IwlRObH3QE59v9O9IVGzpH4u0JgCEXXpcyHjBZo5mz-jeXo3DqhzuvydlmY4LQfCjGp7yNwKlMhTcnGiZRxrW1GtjckxoNwf09c5ebCNyWvO7g14BW-pA5JXI77O8FgoOIe64eMeNhDnkqpk1uYM8DUFZsepWwXBeni_zG-kjMBDp1ljHD4gqRxvM1faXNCJdwQ",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyh1fad7zDw0tAsLNnMq9VByajaXW-dXXZX9suGskvOkflj8hhZoYIIIqc33WncUePbsZcqTTmDzEOwF8jFpdQHvaddgE4Umy2dVw0s_VB5zWEAmzh7eT0qIorjAIJSpMEq8XBd-Tg6hsVq2dQlPKG9yXDdkrShVULJcPFDBeESoifvccIpaijPgmrJiTQIze0b2Qrs12rCPTW_QY",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUh2VPN_jgHnM5IwlRObH3QE59v9O9IVGzpH4u0JgCEXXpcyHjBZo5mz-jeXo3DqhzuvydlmY4LQfCjGp7yNwKlMhTcnGiZRxrW1GtjckxoNwf09c5ebCNyWvO7g14BW-pA5JXI77O8FgoOIe64eMeNhDnkqpk1uYM8DUFZsepWwXBeni_zG-kjMBDp1ljHD4gqRxvM1faXNCJdwQ",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyh1fad7zDw0tAsLNnMq9VByajaXW-dXXZX9suGskvOkflj8hhZoYIIIqc33WncUePbsZcqTTmDzEOwF8jFpdQHvaddgE4Umy2dVw0s_VB5zWEAmzh7eT0qIorjAIJSpMEq8XBd-Tg6hsVq2dQlPKG9yXDdkrShVULJcPFDBeESoifvccIpaijPgmrJiTQIze0b2Qrs12rCPTW_QY",
               "",
               "",
               ""
@@ -1041,12 +1035,12 @@
           },
           {
             "template": "default.html",
-            "title": "Dify 集成SearXNG 搜索引擎：Docker 部署配置实战-腾讯云开发者社区",
-            "content": "2026年1月18日 ... JSON API 支持是与AI 应用集成的关键。SearXNG 不仅提供Web 界面，还支持JSON 格式的API 响应，可以直接被程序调用。Dify 的SearXNG 插件正是基于这个API ...",
+            "title": "SearXNG 完整教學2026：自架隱私搜尋引擎＋AI Agent 搜尋API",
+            "content": "2026年10月28日 ... SearXNG（38961 星、AGPL-3.0）把Google、Brave、DuckDuckGo 等260 多個搜尋服務彙整成一份、不追蹤使用者。用官方compose 三步部署實測，示範JSON ...",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJl4bA9Wnv5lb7B6mKWODIfvu4wubUt0JWhBcuo10a3oAmzfdS7_PEB9mP",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ43jX74txHZJmUzItV-_LA4c_Z7aZyR2b1S5tSTfaA9cgLOfWeUVNv3pk",
             "publishedDate": null,
             "pubdate": "",
             "length": null,
@@ -1064,12 +1058,12 @@
             ],
             "score": 0.1111111111111111,
             "category": "general",
-            "url": "https://cloud.tencent.com/developer/article/2619653",
+            "url": "https://most.tw/posts/blog/searxng-complete-guide-2026/",
             "engine": "google cse",
             "parsed_url": [
               "https",
-              "cloud.tencent.com",
-              "/developer/article/2619653",
+              "most.tw",
+              "/posts/blog/searxng-complete-guide-2026/",
               "",
               "",
               ""
@@ -1100,12 +1094,48 @@
             ],
             "score": 0.1111111111111111,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUiItgBF7X1E-Tsrv-zwHV_1q1S_lPFnLVSjQQcFXr8j1VWJXD7aeoaqE-7SQcjazkCXhfZx7LeGHE1X9ScYagdMy5WnJ7u2ZCrpA2jfKnz1WWSEHusxWc5eN7FrNzBN4EOzi4nf4PDlZRmKzJsPvZCmOH9umYJuZ-9M8E80nlgIkb-qw8mlUEL_3gdSwgU_3rzZce0PW07cdCawBEwvvH9yoyVp1-OB0-qhMNhJ_tcvl8-SeSTDMITcRzUkr2m8gJvT2hYE8cLQhbThnUWCmn0ZUW797ZhQk",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyiF99PFfCGnVCXnzlbuPam3KHaYcC6oHjOvAq_hOYbtlRnJ0fDaGxkgeAgT9RZa5YVg0Ia4M482GsdvV7OzkcUXKtnDY1VEbDf-GrgWsvxto9WE5GWl7zOKcAu77A-HbLF4bODZg1cs4NsBd1Bp61Gd1zuZxvdlx7Ddq7BCOo7IaQbhcUHNHtp5fZhG_BXA7b4F_R5U0howBMUW8l9dzq5lZN6UmMEmuM0ZVYjP1fqH5E9ZVU0lm_YWUc6JrVvwzskGg5Sd2SllG079X8L9OM6Ft2m4ENMgw",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUiItgBF7X1E-Tsrv-zwHV_1q1S_lPFnLVSjQQcFXr8j1VWJXD7aeoaqE-7SQcjazkCXhfZx7LeGHE1X9ScYagdMy5WnJ7u2ZCrpA2jfKnz1WWSEHusxWc5eN7FrNzBN4EOzi4nf4PDlZRmKzJsPvZCmOH9umYJuZ-9M8E80nlgIkb-qw8mlUEL_3gdSwgU_3rzZce0PW07cdCawBEwvvH9yoyVp1-OB0-qhMNhJ_tcvl8-SeSTDMITcRzUkr2m8gJvT2hYE8cLQhbThnUWCmn0ZUW797ZhQk",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyiF99PFfCGnVCXnzlbuPam3KHaYcC6oHjOvAq_hOYbtlRnJ0fDaGxkgeAgT9RZa5YVg0Ia4M482GsdvV7OzkcUXKtnDY1VEbDf-GrgWsvxto9WE5GWl7zOKcAu77A-HbLF4bODZg1cs4NsBd1Bp61Gd1zuZxvdlx7Ddq7BCOo7IaQbhcUHNHtp5fZhG_BXA7b4F_R5U0howBMUW8l9dzq5lZN6UmMEmuM0ZVYjP1fqH5E9ZVU0lm_YWUc6JrVvwzskGg5Sd2SllG079X8L9OM6Ft2m4ENMgw",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "SearXNG 部署和使用 - 机器学习与系统",
+            "content": "2024年11月9日 ... 默认返回html 格式，但是通过API 调用有时希望返回json 格式，这时候就要调整返回格式，加上json 格式。 # see https://docs.searxng.org/admin ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQmIVKIB17uUKB7BaJOf0ccy1PSNrKKeBImpmDtKXzZe8OGYuvpcNq_JBCT",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              10
+            ],
+            "score": 0.1,
+            "category": "general",
+            "url": "https://alwq.xyz/post/2024-11-09-searxng/",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "alwq.xyz",
+              "/post/2024-11-09-searxng/",
               "",
               "",
               ""
@@ -1136,48 +1166,12 @@
             ],
             "score": 0.1,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUieeim85UqRqFyVN0DCFVpCeQlIvEcCCq3Xlr4Z7eYaPVYkO9J4cqsf2fNGHRZ2-GlHMdFxn7YuowhBOpBjxjMQvxZQ3r3jXuD9Vepl8DvAXDYmMh7zB_F3-2V-yMDsy7f8u3-2LOD7fjJv--eMOy7I7_l_k2t_wWmgDlZq-kGcW0kgihoS76sNRgb5ETWhAN",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyiUoTtRHUztldL0TGFKfyB7_SvFeYMkXXOEvCeaxTOpiJZvir05eyWKf3Yj_VTezzg1tV0c_MU4REt-a-C-OrY4NEYMxQrFMH7YnDjg0RfZnz2VLJTsy_UOon-8zZ1iuHe2xCnUC7_KDIzvwPh9PrykzU7VoG-8yaKD2TCHNUYgrUR-3E-TVBOvmKQAkaEeEP",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUieeim85UqRqFyVN0DCFVpCeQlIvEcCCq3Xlr4Z7eYaPVYkO9J4cqsf2fNGHRZ2-GlHMdFxn7YuowhBOpBjxjMQvxZQ3r3jXuD9Vepl8DvAXDYmMh7zB_F3-2V-yMDsy7f8u3-2LOD7fjJv--eMOy7I7_l_k2t_wWmgDlZq-kGcW0kgihoS76sNRgb5ETWhAN",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "SearXNG 完整教學2026：自架隱私搜尋引擎＋AI Agent 搜尋API",
-            "content": "2026年10月28日 ... SearXNG（38961 星、AGPL-3.0）把Google、Brave、DuckDuckGo 等260 多個搜尋服務彙整成一份、不追蹤使用者。用官方compose 三步部署實測，示範JSON ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ43jX74txHZJmUzItV-_LA4c_Z7aZyR2b1S5tSTfaA9cgLOfWeUVNv3pk",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              11
-            ],
-            "score": 0.09090909090909091,
-            "category": "general",
-            "url": "https://most.tw/posts/blog/searxng-complete-guide-2026/",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "most.tw",
-              "/posts/blog/searxng-complete-guide-2026/",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyiUoTtRHUztldL0TGFKfyB7_SvFeYMkXXOEvCeaxTOpiJZvir05eyWKf3Yj_VTezzg1tV0c_MU4REt-a-C-OrY4NEYMxQrFMH7YnDjg0RfZnz2VLJTsy_UOon-8zZ1iuHe2xCnUC7_KDIzvwPh9PrykzU7VoG-8yaKD2TCHNUYgrUR-3E-TVBOvmKQAkaEeEP",
               "",
               "",
               ""
@@ -1208,12 +1202,12 @@
             ],
             "score": 0.09090909090909091,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUinVK0oO2ShKz9MKYR69ZGybuBTarth2Qje2Aq3AorEnTvbb0xCvpnT9R2KUtR5HR71WFteh-vSqNtT8dWOtFvrV1clVpCJuMwXNz1xFehuDLegJT8JH6RhltyWTXtB2MM3PIBUHB2PJJRnlCqTifKV5UIL5EUMkij5uBTuSPH1-mUd_toiRGbIgDRtBJ4D0veCj5WAuZC6oMv7q3Bg",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyihdn0nDwnewqLUJjzESrV7pHqi3WwTec-bjluSISUhkpYsqKsWY9VolQRZJlSM-kX_ptaxa8Q8Kqmd_QLg3FCuHf2zDwgxtfa-11fQsjMlq0Ue_E-34sY1WQgp0c5Myn2Tysx0UyXP0Yel4FRMQk-mRhgcOkV6E4IUAKSsP38CmuhhP3gr3RBt5vk1wDlQdzax3qdJsYhqZEhBW-Dg",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUinVK0oO2ShKz9MKYR69ZGybuBTarth2Qje2Aq3AorEnTvbb0xCvpnT9R2KUtR5HR71WFteh-vSqNtT8dWOtFvrV1clVpCJuMwXNz1xFehuDLegJT8JH6RhltyWTXtB2MM3PIBUHB2PJJRnlCqTifKV5UIL5EUMkij5uBTuSPH1-mUd_toiRGbIgDRtBJ4D0veCj5WAuZC6oMv7q3Bg",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyihdn0nDwnewqLUJjzESrV7pHqi3WwTec-bjluSISUhkpYsqKsWY9VolQRZJlSM-kX_ptaxa8Q8Kqmd_QLg3FCuHf2zDwgxtfa-11fQsjMlq0Ue_E-34sY1WQgp0c5Myn2Tysx0UyXP0Yel4FRMQk-mRhgcOkV6E4IUAKSsP38CmuhhP3gr3RBt5vk1wDlQdzax3qdJsYhqZEhBW-Dg",
               "",
               "",
               ""
@@ -1221,12 +1215,12 @@
           },
           {
             "template": "default.html",
-            "title": "a library to get and use search results from a SearXNG json endpoint",
-            "content": "2025年3月6日 ... Excited to release SearExNg, an Elixir tool for the SearXNG API! SearXNG brings privacy-first metasearching, and SearExNg puts it at your ...",
+            "title": "OpenSERP vs SearXNG | Metasearch Frontend vs SERP API",
+            "content": "2026年10月22日 ... SearXNG offers a search interface with optional JSON output. OpenSERP offers structured SERP JSON for Both support JSON. Choose by the interface ...",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQcJ5-eRinLaSd7UrClI0f3vtb9P-74yrr2p4-XOdYtjqEhUkis1WTxEeQ",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8kA9h6c60IM1RNVk5FRzoZBYhqy9bjAFXnSEC6Zq3M0FAY1E4hueL0_4",
             "publishedDate": null,
             "pubdate": "",
             "length": null,
@@ -1240,53 +1234,25 @@
             "open_group": false,
             "close_group": false,
             "positions": [
-              12
+              13
             ],
-            "score": 0.08333333333333333,
+            "score": 0.07692307692307693,
             "category": "general",
-            "url": "https://elixirforum.com/t/searexng-a-library-to-get-and-use-search-results-from-a-searxng-json-endpoint/69800",
+            "url": "https://openserp.org/comparisons/searxng/",
             "engine": "google cse",
             "parsed_url": [
               "https",
-              "elixirforum.com",
-              "/t/searexng-a-library-to-get-and-use-search-results-from-a-searxng-json-endpoint/69800",
+              "openserp.org",
+              "/comparisons/searxng/",
               "",
               "",
               ""
             ]
           },
           {
-            "url": "https://paulgo.io/",
-            "title": "PaulGO - SearXNG",
-            "content": "SearXNG — a privacy-respecting, open metasearch engine Powered by SearXNG - 2026.11.23+a7163d091 — a privacy-respecting, …",
-            "engine": "bing",
             "template": "default.html",
-            "parsed_url": [
-              "https",
-              "paulgo.io",
-              "/",
-              "",
-              "",
-              ""
-            ],
-            "img_src": "",
-            "thumbnail": "",
-            "priority": "",
-            "engines": [
-              "bing"
-            ],
-            "positions": [
-              9
-            ],
-            "score": 0.1111111111111111,
-            "category": "general",
-            "publishedDate": null,
-            "iframe_src": null
-          },
-          {
-            "template": "default.html",
-            "title": "Self-host SearXNG with Docker, private search and a JSON API",
-            "content": "Run SearXNG, the private metasearch engine, in Docker on an exe.dev VM: your browser's default search behind exe.dev login, plus a JSON API for scripts and agents.",
+            "title": "SearXNG 本地部署与 MCP 接入：搭建私有搜索引擎做技术 ...",
+            "content": "部署在本地 Docker 中， 免费、无 API Key、无调用次数限制、无搜索历史泄漏。 本文从零开始，完成 SearXNG 本地部署、中文引擎配置、JSON API 开启， 再通过 MCP 协议接入 Claude Code，最后给出三个真实使用场景和一套搜索策略。",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
@@ -1308,27 +1274,27 @@
             ],
             "score": 0.1111111111111111,
             "category": "general",
-            "url": "https://exe.dev/deploy/searxng",
+            "url": "https://kl5212840-lang.github.io/robintools/articles/searxng-doc-review-workflow",
             "engine": "duckduckgo",
             "parsed_url": [
               "https",
-              "exe.dev",
-              "/deploy/searxng",
+              "kl5212840-lang.github.io",
+              "/robintools/articles/searxng-doc-review-workflow",
               "",
               "",
               ""
             ]
           },
           {
-            "url": "https://searx.tiekoetter.com/",
-            "title": "SearXNG @ searx.tiekoetter.com",
-            "content": "SearXNG — a privacy-respecting, open metasearch engine Powered by SearXNG - 2026.11.23+a7163d091 (4d67ab584) — a …",
+            "url": "https://www.searchengines.net/searxng/",
+            "title": "SearXNG | SearchEngines.Net",
+            "content": "2026年9月17日 · SearXNG is a community free-software project developed on GitHub under the searxng organization by volunteer …阅读更多",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
               "https",
-              "searx.tiekoetter.com",
-              "/",
+              "www.searchengines.net",
+              "/searxng/",
               "",
               "",
               ""
@@ -1346,42 +1312,6 @@
             "category": "general",
             "publishedDate": null,
             "iframe_src": null
-          },
-          {
-            "template": "default.html",
-            "title": "Public Searxng instance that supports json? : r/Searx - Reddit",
-            "content": "2024年10月14日 ... I would like to use Searxng in Open WebUI but need an instance that supports json. Are there any public instances that support json ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              10
-            ],
-            "score": 0.1,
-            "category": "general",
-            "url": "https://www.reddit.com/r/Searx/comments/1g3egc4/public_searxng_instance_that_supports_json/",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "www.reddit.com",
-              "/r/Searx/comments/1g3egc4/public_searxng_instance_that_supports_json/",
-              "",
-              "",
-              ""
-            ]
           },
           {
             "template": "default.html",
@@ -1421,6 +1351,78 @@
           },
           {
             "template": "default.html",
+            "title": "Public Searxng instance that supports json? : r/Searx - Reddit",
+            "content": "2024年10月14日 ... I would like to use Searxng in Open WebUI but need an instance that supports json. Are there any public instances that support json ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              11
+            ],
+            "score": 0.09090909090909091,
+            "category": "general",
+            "url": "https://www.reddit.com/r/Searx/comments/1g3egc4/public_searxng_instance_that_supports_json/",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "www.reddit.com",
+              "/r/Searx/comments/1g3egc4/public_searxng_instance_that_supports_json/",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "SearxNG 搜索API - ️ LangChain Python 教程",
+            "content": "请参阅此页面了解安装说明。 安装SearxNG 时，默认情况下唯一激活的输出格式是HTML 格式。您需要激活 json 格式才能使用API。可以通过在 ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              12
+            ],
+            "score": 0.08333333333333333,
+            "category": "general",
+            "url": "https://python.langchain.ac.cn/docs/integrations/providers/searx/",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "python.langchain.ac.cn",
+              "/docs/integrations/providers/searx/",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
             "title": "Deploy & Host SearXNG | Open Source Search API for AI Agents | Railway",
             "content": "Does SearXNG work as a JSON API for AI agents? Yes — that's one of its primary use cases. Hit /search?q=your+query&format=json and you'll receive structured results with title, url, content, and engine fields per result.",
             "img_src": "",
@@ -1440,52 +1442,16 @@
             "open_group": false,
             "close_group": false,
             "positions": [
-              13
+              12
             ],
-            "score": 0.07692307692307693,
+            "score": 0.08333333333333333,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUjF0BE2J_sGom2Q1GozMb924F-TXKoi-VzqtjpNx0ECSUwfdTlkJUzSrnno6zJLjh73xFvBk_khzSB9323926tPmhWHcwvP4oCBWv7mBdTNHag56RhqBk_Mr9lvjtQi7brESMnHjz-nPSaSl8izTNFxF5RLxofF0HlimTS4a6QFfQPNwxQnkPcWh0N063e_7ruk1LMZ7weS3Tuspk3ib_toi7q6-26w74KvU45eg1WAo",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyi_34kbypkUERFJPwTQAH7mk4PQS4f3HxQ0MHgYXIfyUEqnyEdBQJihKJmcrgf2gWhr8f8wk_NxMGJrwqaEH3hniDUkQcuKh6mfpbOLVQpo0UgcJfNftks8OTGl-2diztokAkLrZFva4UeWm7GVgp34zP5s5glUw_WSZpbH9Bl8PopVjnDP7br2MxLkjxNfhwfbuF2BRM4DDCoWVCZY-JLbFVlBoZ6LtTL3o2H5Eo6gA",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUjF0BE2J_sGom2Q1GozMb924F-TXKoi-VzqtjpNx0ECSUwfdTlkJUzSrnno6zJLjh73xFvBk_khzSB9323926tPmhWHcwvP4oCBWv7mBdTNHag56RhqBk_Mr9lvjtQi7brESMnHjz-nPSaSl8izTNFxF5RLxofF0HlimTS4a6QFfQPNwxQnkPcWh0N063e_7ruk1LMZ7weS3Tuspk3ib_toi7q6-26w74KvU45eg1WAo",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "SearxNG Search API — LangChain 0.0.149",
-            "content": "This page covers how to use the SearxNG search API within LangChain. It is broken into two parts: installation and setup, and then references to the specific ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              15
-            ],
-            "score": 0.06666666666666667,
-            "category": "general",
-            "url": "https://lagnchain.readthedocs.io/en/stable/ecosystem/searx.html",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "lagnchain.readthedocs.io",
-              "/en/stable/ecosystem/searx.html",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyi_34kbypkUERFJPwTQAH7mk4PQS4f3HxQ0MHgYXIfyUEqnyEdBQJihKJmcrgf2gWhr8f8wk_NxMGJrwqaEH3hniDUkQcuKh6mfpbOLVQpo0UgcJfNftks8OTGl-2diztokAkLrZFva4UeWm7GVgp34zP5s5glUw_WSZpbH9Bl8PopVjnDP7br2MxLkjxNfhwfbuF2BRM4DDCoWVCZY-JLbFVlBoZ6LtTL3o2H5Eo6gA",
               "",
               "",
               ""
@@ -1512,16 +1478,16 @@
             "open_group": false,
             "close_group": false,
             "positions": [
-              17
+              16
             ],
-            "score": 0.058823529411764705,
+            "score": 0.0625,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUkHAzTjp4a4SYeAXlcMpsHErthtrov8M3-r-5N48kZnuulqAmxq1RjOgCN2EpQXxNImVV_YNG5N--Ehb8qse1uran4qoFkWoulrOF3poj6IhKFH_ld8TSmXmTHrHi45j4qqoyHjHx5YNBMcg73NgQ8tlMKNEmVhBU1Yo2ylEt21U5rIU-tyHrx2xp-VjMebQwLcLBBw",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyj2CRkgZ-Sr6Q74iy-twgMp2jA8QbXzkkHH428ziWLoTqonVFRXQCbakC2kqv-wLBgzzplWRSOiyVPSHC8cPqZoXxd8fVP0u4eCiaPuPr7ghOige4qwvRwI8fCaNUj102zTAo6o70DnkfedLLLurGpnWyXk0Nr5_s3caCETn0A8lEOxWwqqf5XSYkT9iPKjWPcFWuDQ",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUkHAzTjp4a4SYeAXlcMpsHErthtrov8M3-r-5N48kZnuulqAmxq1RjOgCN2EpQXxNImVV_YNG5N--Ehb8qse1uran4qoFkWoulrOF3poj6IhKFH_ld8TSmXmTHrHi45j4qqoyHjHx5YNBMcg73NgQ8tlMKNEmVhBU1Yo2ylEt21U5rIU-tyHrx2xp-VjMebQwLcLBBw",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyj2CRkgZ-Sr6Q74iy-twgMp2jA8QbXzkkHH428ziWLoTqonVFRXQCbakC2kqv-wLBgzzplWRSOiyVPSHC8cPqZoXxd8fVP0u4eCiaPuPr7ghOige4qwvRwI8fCaNUj102zTAo6o70DnkfedLLLurGpnWyXk0Nr5_s3caCETn0A8lEOxWwqqf5XSYkT9iPKjWPcFWuDQ",
               "",
               "",
               ""
@@ -1548,124 +1514,52 @@
             "open_group": false,
             "close_group": false,
             "positions": [
+              17
+            ],
+            "score": 0.058823529411764705,
+            "category": "general",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsykKkjtUEU149suGy_KnFEVzq58KKT3Z5A3Wdb57XZ5B_prQ2Qej3o6X7-gHUxjxDFvvAQHcHOqFl7P_dQY9KE5luoXjVL6A-To_LIPfITAeQprpQ3fTw21Ts4UW0QtwnNob9Q1rVrRgiGiLNr4FUePEEumy0RQtvg9avh-JGRirt85dCdnPgK",
+            "engine": "brave",
+            "parsed_url": [
+              "http",
+              "",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsykKkjtUEU149suGy_KnFEVzq58KKT3Z5A3Wdb57XZ5B_prQ2Qej3o6X7-gHUxjxDFvvAQHcHOqFl7P_dQY9KE5luoXjVL6A-To_LIPfITAeQprpQ3fTw21Ts4UW0QtwnNob9Q1rVrRgiGiLNr4FUePEEumy0RQtvg9avh-JGRirt85dCdnPgK",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "SearXNG Privacy Metasearch on Ubuntu 24.04 | 24/7 Support by ...",
+            "content": "A fresh, random SearXNG secret key is also generated per VM, the rate limiter is disabled so no external Valkey or Redis is required, and the JSON search API is ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
               18
             ],
             "score": 0.05555555555555555,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUkWa0A8IRi_4ffV12BfPaDlw-ejROSbaC7N88labGpdmwwWYOkLcJiASSQFovLmSe1e6IaSzBnKJa_upQIGMOdePvGl3eT_PQ3v8l4DDyZYoGPs1E8HIF1bdj4if3QUyMEmNl62tKhaX6A-8n-reFF7plodV9dNFesrvcsX_9g7VlZhiFWIIL",
-            "engine": "brave",
-            "parsed_url": [
-              "http",
-              "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUkWa0A8IRi_4ffV12BfPaDlw-ejROSbaC7N88labGpdmwwWYOkLcJiASSQFovLmSe1e6IaSzBnKJa_upQIGMOdePvGl3eT_PQ3v8l4DDyZYoGPs1E8HIF1bdj4if3QUyMEmNl62tKhaX6A-8n-reFF7plodV9dNFesrvcsX_9g7VlZhiFWIIL",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "Self-host SearXNG with Docker, private search and a JSON API",
-            "content": "Run SearXNG, the private metasearch engine, in Docker on an exe.dev VM: your browser's default search behind exe.dev login, plus a JSON API for scripts and agents.",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "https://imgs.search.brave.com/vTT_dHUYjIuaqN50vmOMxQUChH-66GmPTcNk9eALq2Q/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9leGUu/ZGV2L2RlcGxveS9f/Y2FyZC9zZWFyeG5n/LnBuZz92PTJiMDg0/NGFmYTRjMQ",
-            "publishedDate": "2026-11-21T14:18:00",
-            "pubdate": "2026-11-21 14:18:00",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "brave"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              12
-            ],
-            "score": 0.08333333333333333,
-            "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUiwHHU4ApBd2WSAFrPONJvx7VuCJ4Tdb5Hm2Bz3rHDHCV52NtHaGkoi_OnM90boxcbQTcBIPXZZg-9R6unI4rNvQTKmrQq8pr-Q0tR8jTwYA5vSuQnA1nZJb78QVfgBuAplJYEn_lRtGW6-Zi6hbW92F3Bg",
-            "engine": "brave",
-            "parsed_url": [
-              "http",
-              "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUiwHHU4ApBd2WSAFrPONJvx7VuCJ4Tdb5Hm2Bz3rHDHCV52NtHaGkoi_OnM90boxcbQTcBIPXZZg-9R6unI4rNvQTKmrQq8pr-Q0tR8jTwYA5vSuQnA1nZJb78QVfgBuAplJYEn_lRtGW6-Zi6hbW92F3Bg",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "searx_search | langchain_community - LangChain Reference",
-            "content": "SearxNG is a privacy-friendly free metasearch engine that aggregates results from multiple search engines <https://docs.searxng.org/admin/engines/ ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQWgdNdHNYc3QOsZB92Ejl60lavscTbHAeTK5fgRMvAAhv2LsbzinWFkT4",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              13
-            ],
-            "score": 0.07692307692307693,
-            "category": "general",
-            "url": "https://reference.langchain.com/python/langchain-community/utilities/searx_search",
+            "url": "https://marketplace.microsoft.com/en-gb/product/cloudimg1647283583153.searxng-ubuntu-24-04",
             "engine": "google cse",
             "parsed_url": [
               "https",
-              "reference.langchain.com",
-              "/python/langchain-community/utilities/searx_search",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "Run SearxNG Locally To Keep Your AI Data Private & Free - Medium",
-            "content": "2025年6月19日 ... and gives you a clean, customizable JSON API. Here's how to run it in Docker. Step 1: Spin up SearxNG with Docker. Save the following ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbHAjJmtqPIq52MSaO0m5f5COnKIM9ykmr8d2GTGjHcjJFtxFPlfhqyteE",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              14
-            ],
-            "score": 0.07142857142857142,
-            "category": "general",
-            "url": "https://medium.com/@gabrielrodewald/run-searxng-locally-to-keep-your-ai-data-private-free-create-custom-agentic-tools-e8f4b5592082",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "medium.com",
-              "/@gabrielrodewald/run-searxng-locally-to-keep-your-ai-data-private-free-create-custom-agentic-tools-e8f4b5592082",
+              "marketplace.microsoft.com",
+              "/en-gb/product/cloudimg1647283583153.searxng-ubuntu-24-04",
               "",
               "",
               ""
@@ -1692,16 +1586,124 @@
             "open_group": false,
             "close_group": false,
             "positions": [
-              14
+              13
             ],
-            "score": 0.07142857142857142,
+            "score": 0.07692307692307693,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUjR18PLR8OHlBzLdr4qD9CIQOdps3i-RZELdSlaEgGIKQkDekfBaELXtR6x2m4IapHLtdEIS0XTqK988_-QeNrdohYT-_c2oxmxhOZtoiCAJBL82CqJdEzq-17B8JgNamhT5fKYAMN2RQLGN-eNabuW3gKz22uYLEU_asonBP7iuX2QLE0ZTi_6hifgB6GyoE1UEhExwZwzIUNJoEyz6M1WLWXlnU5TBGSM1M35AHbXhWul_DDA",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyjFN_MGGIssqtgSQDEJZj2kgCeppalHhd59FlgeDLdm1xkh0Zs0q_dZ9LOAj4oUigwydBE7jadQ1d8PUt2TXJeXi0lPw3JStjVlYNhsyFQOfcoDpMqYoIGqP0iLIwXKcYKqXOqousGkwzXPr96U2-ZdiiSy1Rv-Spk7lgj4Iu9P0NadYz6SQcYGk1UeqM712gLGHbE3BKayqtw4O-ueAfEV4elSRl1eevC2Iz1gy_PyPTVATSDQ",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUjR18PLR8OHlBzLdr4qD9CIQOdps3i-RZELdSlaEgGIKQkDekfBaELXtR6x2m4IapHLtdEIS0XTqK988_-QeNrdohYT-_c2oxmxhOZtoiCAJBL82CqJdEzq-17B8JgNamhT5fKYAMN2RQLGN-eNabuW3gKz22uYLEU_asonBP7iuX2QLE0ZTi_6hifgB6GyoE1UEhExwZwzIUNJoEyz6M1WLWXlnU5TBGSM1M35AHbXhWul_DDA",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyjFN_MGGIssqtgSQDEJZj2kgCeppalHhd59FlgeDLdm1xkh0Zs0q_dZ9LOAj4oUigwydBE7jadQ1d8PUt2TXJeXi0lPw3JStjVlYNhsyFQOfcoDpMqYoIGqP0iLIwXKcYKqXOqousGkwzXPr96U2-ZdiiSy1Rv-Spk7lgj4Iu9P0NadYz6SQcYGk1UeqM712gLGHbE3BKayqtw4O-ueAfEV4elSRl1eevC2Iz1gy_PyPTVATSDQ",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "零API 費用幫Open WebUI、Dify 與本地AI Agent 加上即時聯網能力",
+            "content": "3天前 ... SearXNG 是GitHub 破2 萬星的開源元搜尋引擎，整合70+ 搜尋來源並去除廣告追蹤；開啟JSON 格式即可零API 費用為Open WebUI、Dify、Perplexica 與 ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfHmHTno6CemGyTLSrKIh1QsP7_LCvrQq0-rlugU36HeseJARKXPMaHlw&s=0",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              14
+            ],
+            "score": 0.07142857142857142,
+            "category": "general",
+            "url": "https://www.aiposthub.com/searxng-open-source-private-metasearch-ai-20261125/",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "www.aiposthub.com",
+              "/searxng-open-source-private-metasearch-ai-20261125/",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "Self-Host SearXNG Docker with a Secure JSON API Endpoint | PerLod ...",
+            "content": "SearXNG supports limiter: false and public_instance: false, and that avoids local testing problems while you check that the app is working first. The formats list must include json if you want the API to work.",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://imgs.search.brave.com/KI3GKREMj2_XnHv_4rjSRUy8C76sWxUCe93gFV6httA/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9kcy5w/ZXJsb2QuY29tL2Js/b2cvMTc4NzU3NTM0/NTQ4Ny0wZXRkNG5q/di53ZWJw",
+            "publishedDate": "2026-08-24T12:42:37",
+            "pubdate": "2026-08-24 12:42:37",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "brave"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              14
+            ],
+            "score": 0.07142857142857142,
+            "category": "general",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyjRavjPGd9taMKJ_x6YESea7NsqoZrz-b0IDUb0X03iDTIFM1q3mu7BGci414SasBeaYW9P1A9DjQ4wwXPuerNgRpHHyFIVyloLB94ywQmjBism51iEI2Jsq3A696prc6RQNOvowb6p4jGdJIUO60nEQPxPJeRxab8XUjS-Mq8RZi8zyGCwYBii784qeglJ_bFGu7Dg",
+            "engine": "brave",
+            "parsed_url": [
+              "http",
+              "",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyjRavjPGd9taMKJ_x6YESea7NsqoZrz-b0IDUb0X03iDTIFM1q3mu7BGci414SasBeaYW9P1A9DjQ4wwXPuerNgRpHHyFIVyloLB94ywQmjBism51iEI2Jsq3A696prc6RQNOvowb6p4jGdJIUO60nEQPxPJeRxab8XUjS-Mq8RZi8zyGCwYBii784qeglJ_bFGu7Dg",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "SearXNG: A lightweight, open-source search engine API - LinkedIn",
+            "content": "2025年11月14日 ... A private search engine API with JSON/XML output , free, open-source, and lightweight enough for an old office PC? This is SearXNG. The key ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTo5E7rNFsLgqwOKnuQ8VfKYMDUsn-wBTesZxAN-mVD8PKoLg-f4oUHYb0",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              15
+            ],
+            "score": 0.06666666666666667,
+            "category": "general",
+            "url": "https://www.linkedin.com/posts/ariyahidayat_a-private-search-engine-api-with-jsonxml-activity-7395174389408800768-o2mT",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "www.linkedin.com",
+              "/posts/ariyahidayat_a-private-search-engine-api-with-jsonxml-activity-7395174389408800768-o2mT",
               "",
               "",
               ""
@@ -1732,12 +1734,12 @@
             ],
             "score": 0.06666666666666667,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUjiST6pF7BtrRyv9ohBEokDCrjTzS5JFIbfPeZzYlg_16C9Unstr71XG3XDfJhV9KvVe51fJj5WK9WJyGHphcnrbDo0PYOX-XPhpvMYOKAi2bpUh2zfj3NNnoWePIf2VcOfDVuYgYsVzvhn7LtHsaKWYwAbMZyZnEMJnmQBWqcaLVKqpf0WgMLEvdlkMkTovIQYi1kst1y6K6GkJ_NrDbBg",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyjgnjZUCylPiBZiOzM3cWCKXczIPqcCzg_nJOZiHLjBmOHSwYlO4z6X8kWz2ZedkCHnc2kkGQMTqKMPx89ZkUUJAZkn-NiOnK11evP6qGrH1F-7up-hG6TvYrmDQSFeSt__mDX9EdRpZB6dtlO360G1R8ydRUbi8mUyktA-CQXmpuEyzBg9hTq9q-cBBNza7dMmFs2_UD2AB2FWBPTqTDCw",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUjiST6pF7BtrRyv9ohBEokDCrjTzS5JFIbfPeZzYlg_16C9Unstr71XG3XDfJhV9KvVe51fJj5WK9WJyGHphcnrbDo0PYOX-XPhpvMYOKAi2bpUh2zfj3NNnoWePIf2VcOfDVuYgYsVzvhn7LtHsaKWYwAbMZyZnEMJnmQBWqcaLVKqpf0WgMLEvdlkMkTovIQYi1kst1y6K6GkJ_NrDbBg",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyjgnjZUCylPiBZiOzM3cWCKXczIPqcCzg_nJOZiHLjBmOHSwYlO4z6X8kWz2ZedkCHnc2kkGQMTqKMPx89ZkUUJAZkn-NiOnK11evP6qGrH1F-7up-hG6TvYrmDQSFeSt__mDX9EdRpZB6dtlO360G1R8ydRUbi8mUyktA-CQXmpuEyzBg9hTq9q-cBBNza7dMmFs2_UD2AB2FWBPTqTDCw",
               "",
               "",
               ""
@@ -1745,12 +1747,12 @@
           },
           {
             "template": "default.html",
-            "title": "SearXNG 部署和使用 - 机器学习与系统",
-            "content": "2024年11月9日 ... 默认返回html 格式，但是通过API 调用有时希望返回json 格式，这时候就要调整返回格式，加上json 格式。 # see https://docs.searxng.org/admin ...",
+            "title": "a library to get and use search results from a SearXNG json endpoint",
+            "content": "2025年3月6日 ... Excited to release SearExNg, an Elixir tool for the SearXNG API! SearXNG brings privacy-first metasearching, and SearExNg puts it at your ...",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQmIVKIB17uUKB7BaJOf0ccy1PSNrKKeBImpmDtKXzZe8OGYuvpcNq_JBCT",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQcJ5-eRinLaSd7UrClI0f3vtb9P-74yrr2p4-XOdYtjqEhUkis1WTxEeQ",
             "publishedDate": null,
             "pubdate": "",
             "length": null,
@@ -1768,12 +1770,12 @@
             ],
             "score": 0.0625,
             "category": "general",
-            "url": "https://alwq.xyz/post/2024-11-09-searxng/",
+            "url": "https://elixirforum.com/t/searexng-a-library-to-get-and-use-search-results-from-a-searxng-json-endpoint/69800",
             "engine": "google cse",
             "parsed_url": [
               "https",
-              "alwq.xyz",
-              "/post/2024-11-09-searxng/",
+              "elixirforum.com",
+              "/t/searexng-a-library-to-get-and-use-search-results-from-a-searxng-json-endpoint/69800",
               "",
               "",
               ""
@@ -1781,48 +1783,12 @@
           },
           {
             "template": "default.html",
-            "title": "Self-Host SearXNG Docker with a Secure JSON API Endpoint | PerLod ...",
-            "content": "SearXNG supports limiter: false and public_instance: false, and that avoids local testing problems while you check that the app is working first. The formats list must include json if you want the API to work.",
+            "title": "06-SearXNG 部署教程 - 知乎专栏",
+            "content": "当OpenClaw 需要查询最新信息、实时数据或网络资源时，可以通过SearXNG 的REST API 获取搜索结果，无需依赖商业搜索引擎的API。 SearXNG.png. SearXNG 的核心优势. 优势 ...",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
-            "thumbnail": "https://imgs.search.brave.com/KI3GKREMj2_XnHv_4rjSRUy8C76sWxUCe93gFV6httA/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9kcy5w/ZXJsb2QuY29tL2Js/b2cvMTc4NzU3NTM0/NTQ4Ny0wZXRkNG5q/di53ZWJw",
-            "publishedDate": "2026-08-24T12:42:37",
-            "pubdate": "2026-08-24 12:42:37",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "brave"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              16
-            ],
-            "score": 0.0625,
-            "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUj-5HfJAFWc24AuhCYbC90tS4I8xO3mSyUG-SgmuJv6y_mZsY9k2y-wk3oHk65B1E9x-xRV3-YsZgwgs2dFcjX1vNsZCRRl_ZkQ9iHhPA8TK4Hr-pKRFQIbm7hJg9cNy08j4uqAv3ehWZI0FRYbPRRtmIRk-x5mDZE_Ht_moijMQ8zS4lFuycI-an4hyKA1pJc5T2AQ",
-            "engine": "brave",
-            "parsed_url": [
-              "http",
-              "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUj-5HfJAFWc24AuhCYbC90tS4I8xO3mSyUG-SgmuJv6y_mZsY9k2y-wk3oHk65B1E9x-xRV3-YsZgwgs2dFcjX1vNsZCRRl_ZkQ9iHhPA8TK4Hr-pKRFQIbm7hJg9cNy08j4uqAv3ehWZI0FRYbPRRtmIRk-x5mDZE_Ht_moijMQ8zS4lFuycI-an4hyKA1pJc5T2AQ",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "SearXNG: A lightweight, open-source search engine API - LinkedIn",
-            "content": "2025年11月14日 ... A private search engine API with JSON/XML output , free, open-source, and lightweight enough for an old office PC? This is SearXNG. The key ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTo5E7rNFsLgqwOKnuQ8VfKYMDUsn-wBTesZxAN-mVD8PKoLg-f4oUHYb0",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGW6xG6hB8vVWQHobUeKSQfi9SHTudtcxmxUgk2I-xh4wPS79BTYSkcyfm",
             "publishedDate": null,
             "pubdate": "",
             "length": null,
@@ -1840,12 +1806,12 @@
             ],
             "score": 0.058823529411764705,
             "category": "general",
-            "url": "https://www.linkedin.com/posts/ariyahidayat_a-private-search-engine-api-with-jsonxml-activity-7395174389408800768-o2mT",
+            "url": "https://zhuanlan.zhihu.com/p/2039836651791328612",
             "engine": "google cse",
             "parsed_url": [
               "https",
-              "www.linkedin.com",
-              "/posts/ariyahidayat_a-private-search-engine-api-with-jsonxml-activity-7395174389408800768-o2mT",
+              "zhuanlan.zhihu.com",
+              "/p/2039836651791328612",
               "",
               "",
               ""
@@ -1853,12 +1819,48 @@
           },
           {
             "template": "default.html",
-            "title": "SearXNG Alternatives for AI Development - You.com",
-            "content": "2026年8月1日 ... It does not require sending your code or sensitive context to the search API: you retrieve public web content and bring it into your local ...",
+            "title": "Self-host SearXNG with Docker, private search and a JSON API",
+            "content": "Run SearXNG, the private metasearch engine, in Docker on an exe.dev VM: your browser's default search behind exe.dev login, plus a JSON API for scripts and agents.",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTh3aPtbao1rVqStUdtV7lBu8CFfksH8cSU41x2GLCW3su8EeBBlBITJvA",
+            "thumbnail": "https://imgs.search.brave.com/vTT_dHUYjIuaqN50vmOMxQUChH-66GmPTcNk9eALq2Q/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9leGUu/ZGV2L2RlcGxveS9f/Y2FyZC9zZWFyeG5n/LnBuZz92PTJiMDg0/NGFmYTRjMQ",
+            "publishedDate": "2026-11-21T14:18:00",
+            "pubdate": "2026-11-21 14:18:00",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "brave"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              18
+            ],
+            "score": 0.05555555555555555,
+            "category": "general",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsykXTsasYCNHP2EUPQH0KOpA3KEEDehjqsgO9Pu1KZRu0pLZIvd16dSFj0z_mUh6dC3_VkWx5tpt-8HgRmghn6hHJ9uCqNn2a3ZhCNNOtqhyqBopWDyLhzuZsrLKZrBbk9xcA1uzH8R2Pr9IvY1kyl9fj-AQ",
+            "engine": "brave",
+            "parsed_url": [
+              "http",
+              "",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsykXTsasYCNHP2EUPQH0KOpA3KEEDehjqsgO9Pu1KZRu0pLZIvd16dSFj0z_mUh6dC3_VkWx5tpt-8HgRmghn6hHJ9uCqNn2a3ZhCNNOtqhyqBopWDyLhzuZsrLKZrBbk9xcA1uzH8R2Pr9IvY1kyl9fj-AQ",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "searx_search | langchain_community - LangChain Reference",
+            "content": "SearxNG is a privacy-friendly free metasearch engine that aggregates results from multiple search engines <https://docs.searxng.org/admin/engines/ ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQWgdNdHNYc3QOsZB92Ejl60lavscTbHAeTK5fgRMvAAhv2LsbzinWFkT4",
             "publishedDate": null,
             "pubdate": "",
             "length": null,
@@ -1872,16 +1874,16 @@
             "open_group": false,
             "close_group": false,
             "positions": [
-              18
+              20
             ],
-            "score": 0.05555555555555555,
+            "score": 0.05,
             "category": "general",
-            "url": "https://you.com/resources/searxng-alternatives",
+            "url": "https://reference.langchain.com/python/langchain-community/utilities/searx_search",
             "engine": "google cse",
             "parsed_url": [
               "https",
-              "you.com",
-              "/resources/searxng-alternatives",
+              "reference.langchain.com",
+              "/python/langchain-community/utilities/searx_search",
               "",
               "",
               ""
@@ -1889,12 +1891,12 @@
           },
           {
             "template": "default.html",
-            "title": "Self-Host SearXNG Docker with a Secure JSON API Endpoint",
-            "content": "2026年8月24日 ... How to Self-Host SearXNG with Docker, Redis, and a Secure Public JSON API · What You Need Before Starting Self-Host SearXNG Docker · Step 1.",
+            "title": "SearXNG 本地部署与配置| Cherry Studio Docs",
+            "content": "CherryStudio 支持通过SearXNG 进行网络搜索，SearXNG 是一个可本地部署也可在服务器上部署的开源项目，所以与其他需要API 提供商的配置方式略有不同。 ... json-file ...",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTE7JE2yjvbjqIHsG1WzSkCv7q9jPj8Ad4IeGILxkcRiMLediHSx4PGAJ65",
+            "thumbnail": "",
             "publishedDate": null,
             "pubdate": "",
             "length": null,
@@ -1912,12 +1914,12 @@
             ],
             "score": 0.05263157894736842,
             "category": "general",
-            "url": "https://perlod.com/tutorials/self-host-searxng-docker-instance/",
+            "url": "https://cherryai.com.cn/docs/zh-cn/pre-basic/websearch/searxng/",
             "engine": "google cse",
             "parsed_url": [
               "https",
-              "perlod.com",
-              "/tutorials/self-host-searxng-docker-instance/",
+              "cherryai.com.cn",
+              "/docs/zh-cn/pre-basic/websearch/searxng/",
               "",
               "",
               ""
@@ -1948,48 +1950,12 @@
             ],
             "score": 0.05263157894736842,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUklP1hIAWVbjx0kFYDI0YmZru4bDaPjOFhhFe8h03YiAmkS34OnkoZQxygQt_n2NcK8zqyyaVktpykk-68AOO0UEm7VWKrqRRhIpTAlb1vYIjRXxvwev5fgAXCAZnjbd9290FD-uE-C1DLt7HDTgFfZy_OYxF4AdUAzer-C2F4Btpe-qF2v1fn8YFboH094ZtzR-QsgoFfbnKHGmyDg",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsykrfF6DBWdhrhp091OPw4600-DYwZRjx2-y1kfVrelW26X1IRng-O9Oj1vB0gPGa0saWUBOpFMGoCsyrgkIm7mqh6XnXYFViT65U8lghpNZC6tbLgyvePjs_tUBITgTPLQkD91pxt4NEvAgVPXqunZ1HUOeZTCph3oiFfF01dSvY3-9lcbpZDpBur8eQ_T7Op64GJK5R0P79hQW2FAw",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUklP1hIAWVbjx0kFYDI0YmZru4bDaPjOFhhFe8h03YiAmkS34OnkoZQxygQt_n2NcK8zqyyaVktpykk-68AOO0UEm7VWKrqRRhIpTAlb1vYIjRXxvwev5fgAXCAZnjbd9290FD-uE-C1DLt7HDTgFfZy_OYxF4AdUAzer-C2F4Btpe-qF2v1fn8YFboH094ZtzR-QsgoFfbnKHGmyDg",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "searxng-search - Skill - Smithery",
-            "content": "PyPI Workaround. Since PyPI is not returning results in SearXNG (despite being enabled), use these alternatives: Option 1: Direct PyPI JSON API.",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              20
-            ],
-            "score": 0.05,
-            "category": "general",
-            "url": "https://smithery.ai/skills/YPares/searxng-search",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "smithery.ai",
-              "/skills/YPares/searxng-search",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsykrfF6DBWdhrhp091OPw4600-DYwZRjx2-y1kfVrelW26X1IRng-O9Oj1vB0gPGa0saWUBOpFMGoCsyrgkIm7mqh6XnXYFViT65U8lghpNZC6tbLgyvePjs_tUBITgTPLQkD91pxt4NEvAgVPXqunZ1HUOeZTCph3oiFfF01dSvY3-9lcbpZDpBur8eQ_T7Op64GJK5R0P79hQW2FAw",
               "",
               "",
               ""
@@ -2020,12 +1986,12 @@
             ],
             "score": 0.05,
             "category": "general",
-            "url": "http:///go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUk6CFQjHm-tAauXhsAEbeAwU48gYVVFIWf8n9xofbf2K4WIn81EJi5PcTSM9NyUHc1st3ysvohuz4bYqhG8QAt8OrVVj0QUrqXiLpaKnxRY3Lqv8-ui78FsC8HG8Yzn98q3lovV_CxV71nP2cYILqz62LshYRxEMLfadh9ByIyxQ47YfRagapVrvrW8JqVRIuF9WYDQ",
+            "url": "http:///go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyk3pV6qZVWopfObDGOwrTa13EqsFZKs0fEV9-fwXWmz64Pt3Vv6g9RBbi0WIsqMlDVA189RP2c8iOclwpjhBJwlrHNGD7-1_EUtC7Yy7LkuqWF7ko99WicxwmegILCs0gZK5Lw6AJNkkJ9D-hazm5cYBRFmDKFj2aYY7k2NutFh-YWgCrctlVrmBvGOnH7pYgbzDSDg",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/ARaW1QN0otW-awo46AFqgRGYIkK8gLL-FjgTrvZUk6CFQjHm-tAauXhsAEbeAwU48gYVVFIWf8n9xofbf2K4WIn81EJi5PcTSM9NyUHc1st3ysvohuz4bYqhG8QAt8OrVVj0QUrqXiLpaKnxRY3Lqv8-ui78FsC8HG8Yzn98q3lovV_CxV71nP2cYILqz62LshYRxEMLfadh9ByIyxQ47YfRagapVrvrW8JqVRIuF9WYDQ",
+              "/go/v1/AVIR8ADo_syTawpJjAHVcosuyoJqoKS7busuiRsyk3pV6qZVWopfObDGOwrTa13EqsFZKs0fEV9-fwXWmz64Pt3Vv6g9RBbi0WIsqMlDVA189RP2c8iOclwpjhBJwlrHNGD7-1_EUtC7Yy7LkuqWF7ko99WicxwmegILCs0gZK5Lw6AJNkkJ9D-hazm5cYBRFmDKFj2aYY7k2NutFh-YWgCrctlVrmBvGOnH7pYgbzDSDg",
               "",
               "",
               ""
@@ -2036,21 +2002,21 @@
         "corrections": [],
         "infoboxes": [],
         "suggestions": [
+          "searxng public api",
           "searxng api",
-          "brave api key",
-          "searxng api key",
-          "searxng json 403",
           "searxng format json forbidden",
-          "searxng api url",
-          "searxng install",
-          "searxng json api github",
+          "searxng api key",
           "searxng json response",
-          "searxng public api"
+          "searxng json api github",
+          "searxng",
+          "searxng api url",
+          "searxng json 403",
+          "searxng install"
         ],
         "unresponsive_engines": [
           [
             "google",
-            "access denied"
+            "Suspended: access denied"
           ]
         ]
       }
@@ -2122,38 +2088,6 @@
             "iframe_src": null
           },
           {
-            "url": "https://www.firecrawl.dev/",
-            "title": "Firecrawl | Knowledge Infrastructure for AI Agents",
-            "content": "Firecrawl renders JavaScript automatically, so you get the full page content even from SPAs and dynamically loaded sites. No extra configuration needed — just pass the URL.",
-            "engine": "bing",
-            "template": "default.html",
-            "parsed_url": [
-              "https",
-              "www.firecrawl.dev",
-              "/",
-              "",
-              "",
-              ""
-            ],
-            "img_src": "",
-            "thumbnail": "",
-            "priority": "",
-            "engines": [
-              "bing",
-              "google cse",
-              "duckduckgo"
-            ],
-            "positions": [
-              5,
-              16,
-              9
-            ],
-            "score": 1.1208333333333333,
-            "category": "general",
-            "publishedDate": null,
-            "iframe_src": null
-          },
-          {
             "template": "default.html",
             "title": "Self-hosting Firecrawl",
             "content": "当您需要掌控源代码或基础设施时，可使用 Docker Compose 自托管 Firecrawl。本指南固定使用版本 v2.11.162，在 http://localhost:3002 启动 API，并验证 POST /v2/scrape 成功返回 Markdown 响应。",
@@ -2178,12 +2112,12 @@
             ],
             "score": 1.0,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwgGrvUUIw6zumkalf7VnE8bqMMFEnyrKKeeZqf30k5ab4I3nNpPn8t4x-RmVCcYQMTGcURzQPMe9bLDqfn3pcJ1GjEbKubLw5mxGtBMERDoje03KsZPMfslxbM3OOsFw7WCXeUIvVOnMAQ0IhFEsezBpNzcvYw_nldEWAd0633ijh1LkIvrNm5g4",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAygL19ZP13jWnEAqzt4JGnzhLrLle0A7q7PuQ8OHAGyGnCz05t55UmFeWs5_MxRcaJjkdlJ8NtjlNQY89pE0zI-zB2m7qC5hkM5LBxx8EjJeaC9OZSucDDYoSwYT47kGhyEirgDr8oMdP8ihKm3As1Dk701JWmf7ogETKChzE7OvHavkeNUbu2KwA",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwgGrvUUIw6zumkalf7VnE8bqMMFEnyrKKeeZqf30k5ab4I3nNpPn8t4x-RmVCcYQMTGcURzQPMe9bLDqfn3pcJ1GjEbKubLw5mxGtBMERDoje03KsZPMfslxbM3OOsFw7WCXeUIvVOnMAQ0IhFEsezBpNzcvYw_nldEWAd0633ijh1LkIvrNm5g4",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAygL19ZP13jWnEAqzt4JGnzhLrLle0A7q7PuQ8OHAGyGnCz05t55UmFeWs5_MxRcaJjkdlJ8NtjlNQY89pE0zI-zB2m7qC5hkM5LBxx8EjJeaC9OZSucDDYoSwYT47kGhyEirgDr8oMdP8ihKm3As1Dk701JWmf7ogETKChzE7OvHavkeNUbu2KwA",
               "",
               "",
               ""
@@ -2242,9 +2176,39 @@
             ],
             "positions": [
               4,
-              6
+              7
             ],
-            "score": 0.8333333333333333,
+            "score": 0.7857142857142857,
+            "category": "general",
+            "publishedDate": null,
+            "iframe_src": null
+          },
+          {
+            "url": "https://www.firecrawl.dev/",
+            "title": "Firecrawl | Knowledge Infrastructure for AI Agents",
+            "content": "Firecrawl renders JavaScript automatically, so you get the full page content even from SPAs and dynamically loaded sites. No extra configuration needed — just pass the URL.",
+            "engine": "bing",
+            "template": "default.html",
+            "parsed_url": [
+              "https",
+              "www.firecrawl.dev",
+              "/",
+              "",
+              "",
+              ""
+            ],
+            "img_src": "",
+            "thumbnail": "",
+            "priority": "",
+            "engines": [
+              "bing",
+              "duckduckgo"
+            ],
+            "positions": [
+              5,
+              9
+            ],
+            "score": 0.6222222222222222,
             "category": "general",
             "publishedDate": null,
             "iframe_src": null
@@ -2272,9 +2236,9 @@
             ],
             "positions": [
               9,
-              14
+              11
             ],
-            "score": 0.36507936507936506,
+            "score": 0.40404040404040403,
             "category": "general",
             "publishedDate": null,
             "iframe_src": null
@@ -2442,12 +2406,12 @@
             ],
             "score": 0.5,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwgRl5lRNXLBtgdKaoYDTYDAJmtiBXDAVQWOEqJBT_5qCPZETA-WLgPGZPs_3XmnD5kdNV-gsJ67rJQQ_Boadu0PL9GtaPpFeNnwJlvZ4OY6quE208oek8972JQ06d0P9wSJqtW6HWo0opdTTGgoX9KdFw96pd2jf6z60sBOAsGy8cfwVTvqcQW6YRmd-Vjs4kxg4",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAygSjYDhvw079c-9IPtjFQnG6eM3sHH443Qun2xcq_33W_BrOC5ldF4XjFAA2bwWnhhvRNKKKjszadczzWvIAAy-gkhs3EjtrFFAnAXpwm-uKPoZpT7DlpYLxVGkAN1WkuDvCF5bbOcSOYkD7mQUy5PakE4M_nHRbZzrIZ_abJzBjCG7HeUfybuScHCNkfqTiTtA8",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwgRl5lRNXLBtgdKaoYDTYDAJmtiBXDAVQWOEqJBT_5qCPZETA-WLgPGZPs_3XmnD5kdNV-gsJ67rJQQ_Boadu0PL9GtaPpFeNnwJlvZ4OY6quE208oek8972JQ06d0P9wSJqtW6HWo0opdTTGgoX9KdFw96pd2jf6z60sBOAsGy8cfwVTvqcQW6YRmd-Vjs4kxg4",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAygSjYDhvw079c-9IPtjFQnG6eM3sHH443Qun2xcq_33W_BrOC5ldF4XjFAA2bwWnhhvRNKKKjszadczzWvIAAy-gkhs3EjtrFFAnAXpwm-uKPoZpT7DlpYLxVGkAN1WkuDvCF5bbOcSOYkD7mQUy5PakE4M_nHRbZzrIZ_abJzBjCG7HeUfybuScHCNkfqTiTtA8",
               "",
               "",
               ""
@@ -2478,12 +2442,12 @@
             ],
             "score": 0.3333333333333333,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwgsX75YAgKoJfOmQqrhEqb5shHJ0nW6j34WCb43I4nIBFc6OAdo_yygMpvraQ0spyZmTleeeTFMelBVNGQUmDLDDaSJnzQWS4lrvlk9WCkUokqmwYXN61fsLz8wI-yv3osYvymGrcALM2tDqmVofMCztgUUrHn8OcAwMlUbfIubV3kZSuZPhZQdIKj_Y9f9xGbcNKYXBQjybeWEO9meY_Dhlm38IZl2oFswE",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAygqN3mblzlJN6OufrpxYsQqF44tqWecSry9C3kHOc1e1rY7tiMbfPbddBDq6KOBum_9eBiv_3LGUfLY42RK2RPPr8SBH3j6p5Gvewjl4t796NuB3O8_5nC-m2F07Fg9nd748rH1n5FwpRUBgJFq2tWuee7QaK3GNjWqHxud6G3xwtflhl_7QNkEhzD2lmXNGrxvK3d6yDifPXJabaxyL6ZvfJGrxwPwPBIwY",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwgsX75YAgKoJfOmQqrhEqb5shHJ0nW6j34WCb43I4nIBFc6OAdo_yygMpvraQ0spyZmTleeeTFMelBVNGQUmDLDDaSJnzQWS4lrvlk9WCkUokqmwYXN61fsLz8wI-yv3osYvymGrcALM2tDqmVofMCztgUUrHn8OcAwMlUbfIubV3kZSuZPhZQdIKj_Y9f9xGbcNKYXBQjybeWEO9meY_Dhlm38IZl2oFswE",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAygqN3mblzlJN6OufrpxYsQqF44tqWecSry9C3kHOc1e1rY7tiMbfPbddBDq6KOBum_9eBiv_3LGUfLY42RK2RPPr8SBH3j6p5Gvewjl4t796NuB3O8_5nC-m2F07Fg9nd748rH1n5FwpRUBgJFq2tWuee7QaK3GNjWqHxud6G3xwtflhl_7QNkEhzD2lmXNGrxvK3d6yDifPXJabaxyL6ZvfJGrxwPwPBIwY",
               "",
               "",
               ""
@@ -2550,12 +2514,12 @@
             ],
             "score": 0.25,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwgy4vKKIXIEwYaFVRGwa5M-2H-Oyb_3SUSLpPOrKuraqiAmpspT7OpMrst_x8JIyIJ6jYbiX_sPCeVhqCqzk3QPLLTFmft8j5S51LQzJOtJoDd8uEzlIeq7qBYz1mpAIr_WedYdr_NwCYqNaSSuNXQRUC1JEnk6QZeu8oRR5kIgoeIIor2cNABQ",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyg1dJ09TZdRiLOOeI2-zhzFO8x_0W0rLEHNvPPCvvQA-1dnRZ9XGbghOYoJ70izH5GQoqBp6FD89GR7hxGWuGSbNNWDndGLNDcwTQIWTgYawsZOMaYaVOUsN0mIxoORx6cec1Hk4WTqHr5h37q7r0bDHRjznkFRzgkYd0t7LuKlJb8M-oPBR1Bg",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwgy4vKKIXIEwYaFVRGwa5M-2H-Oyb_3SUSLpPOrKuraqiAmpspT7OpMrst_x8JIyIJ6jYbiX_sPCeVhqCqzk3QPLLTFmft8j5S51LQzJOtJoDd8uEzlIeq7qBYz1mpAIr_WedYdr_NwCYqNaSSuNXQRUC1JEnk6QZeu8oRR5kIgoeIIor2cNABQ",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyg1dJ09TZdRiLOOeI2-zhzFO8x_0W0rLEHNvPPCvvQA-1dnRZ9XGbghOYoJ70izH5GQoqBp6FD89GR7hxGWuGSbNNWDndGLNDcwTQIWTgYawsZOMaYaVOUsN0mIxoORx6cec1Hk4WTqHr5h37q7r0bDHRjznkFRzgkYd0t7LuKlJb8M-oPBR1Bg",
               "",
               "",
               ""
@@ -2586,12 +2550,12 @@
             ],
             "score": 0.2,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwhF-86LSDGR7yFrftCcVLEGxcvM0zF1U6KEwmEAqORn_uJl28de8NEtUVcul4zKwSggfxQvCgaGizs8H4cLz0MmsxD5Ahc3eI2AIlpkBVZbH-nm5puadGbtLmfDMrpodCbi0EThJPkhle4VHsVZhemIjTTY_LDZPcf1Bp9JoaVOZ9LAm1TQg7Web838awqV5HdIzGMWmmN5C5DQ",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyhFjkG46zq6yv5OtQ3biqfC2LkGnhUpzBuSjX4UsCkAo3EHS62MzeIlx-CvV9SXlx73NV1Z_QB92ac7VAk1194E20GK4SjjYPKovC13HxBuOF4HeOTSNfjbgSNYQL6SeQdSuPu1D3j6Ty3Kke5zqEOig8Xa8OOmSrul7DUfMBDOG-1hb6M0WWCou8fQguONmmh0VsJHqff-jvAg",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwhF-86LSDGR7yFrftCcVLEGxcvM0zF1U6KEwmEAqORn_uJl28de8NEtUVcul4zKwSggfxQvCgaGizs8H4cLz0MmsxD5Ahc3eI2AIlpkBVZbH-nm5puadGbtLmfDMrpodCbi0EThJPkhle4VHsVZhemIjTTY_LDZPcf1Bp9JoaVOZ9LAm1TQg7Web838awqV5HdIzGMWmmN5C5DQ",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyhFjkG46zq6yv5OtQ3biqfC2LkGnhUpzBuSjX4UsCkAo3EHS62MzeIlx-CvV9SXlx73NV1Z_QB92ac7VAk1194E20GK4SjjYPKovC13HxBuOF4HeOTSNfjbgSNYQL6SeQdSuPu1D3j6Ty3Kke5zqEOig8Xa8OOmSrul7DUfMBDOG-1hb6M0WWCou8fQguONmmh0VsJHqff-jvAg",
               "",
               "",
               ""
@@ -2658,12 +2622,12 @@
             ],
             "score": 0.16666666666666666,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwhVSU6UpT-zTHaE3pWl7oYBKq6D2Ge_yVcaID9Raz0SI-MtpGDJFShcJSDwzB9JaM_2n-v2jE_nFW_Sfm5LLnVdJHZ_X8vW9IsRFp-A97ddkaarMprxEiNACiPh-sPX51R2pNTquSatOBFwbUpBRQNq_TOT-6j47lFjZxc3P7OVIx9mWDhx1GOZMT9EkoKV--UVnNJSEwBiwRJpmmVmRZYj2HLzcpk9v0OSkp6DxWfK4S3R1oMm0I",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyhajQ5Vr4rCQqHAH_2UeBIMRDDJkXKofNXl1ZzA2uKpXeLnCyjKUm9PKuG3Mh4rlRSa9pXC6pKmS-Oz0PIZaZv0sWS1kTpd1ue2qDjyQlFy8Xc0M6aRFLCxVMbHxNr6UE97Eol6lyHOhpAvCQdnI67kUry_KEWKuBSdUFUoKwEouwlEIACWmEjGGjejh5t4FtneqZ5c8TfMRualnHHYqnDZgjEl3oJNHIyK_Ys76fW3D31EDrr4AD",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwhVSU6UpT-zTHaE3pWl7oYBKq6D2Ge_yVcaID9Raz0SI-MtpGDJFShcJSDwzB9JaM_2n-v2jE_nFW_Sfm5LLnVdJHZ_X8vW9IsRFp-A97ddkaarMprxEiNACiPh-sPX51R2pNTquSatOBFwbUpBRQNq_TOT-6j47lFjZxc3P7OVIx9mWDhx1GOZMT9EkoKV--UVnNJSEwBiwRJpmmVmRZYj2HLzcpk9v0OSkp6DxWfK4S3R1oMm0I",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyhajQ5Vr4rCQqHAH_2UeBIMRDDJkXKofNXl1ZzA2uKpXeLnCyjKUm9PKuG3Mh4rlRSa9pXC6pKmS-Oz0PIZaZv0sWS1kTpd1ue2qDjyQlFy8Xc0M6aRFLCxVMbHxNr6UE97Eol6lyHOhpAvCQdnI67kUry_KEWKuBSdUFUoKwEouwlEIACWmEjGGjejh5t4FtneqZ5c8TfMRualnHHYqnDZgjEl3oJNHIyK_Ys76fW3D31EDrr4AD",
               "",
               "",
               ""
@@ -2826,9 +2790,9 @@
             "open_group": false,
             "close_group": false,
             "positions": [
-              7
+              6
             ],
-            "score": 0.14285714285714285,
+            "score": 0.16666666666666666,
             "category": "general",
             "url": "https://zhuanlan.zhihu.com/p/1935715315045635932",
             "engine": "duckduckgo",
@@ -2994,12 +2958,12 @@
             ],
             "score": 0.14285714285714285,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwhkoIa4lk5jzWdjqwSfBY2GPZSLHiDHhnFLozB14CfZf5kKwQPjku7qrvcZitJxTAcQRSQAs3hV_YEe7v5tQXa0gEevDyCGcAZDP5y7AaBmGk410D-1h88GcCSfp25yCaZF7B9RmQJgjfwR4Y4RRO95I2Uf9kBCN8XY-dgvdTO9u7MsdcSInF0xG0ji5Sz9j_pZmIYAPyBg",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyhhXe77tWnuhmgJErla8Yf24pc-aAXQ6M-Dol3XTaGOMIaQ5zeS7qY76lO_ggwTB8iZKHfEwOkaIFxsC59ZOF1ydePZ8ZCN6MgfHxBrQTpF6SvCxjri7_PdAmH2_qf0CLJQs59axfz1Ou3y8YnlybF_wnGT4J9KVKrFegXfIbIPKNFCf0rUUcU-DP_LiEEVchw5tOMSdwDQ",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwhkoIa4lk5jzWdjqwSfBY2GPZSLHiDHhnFLozB14CfZf5kKwQPjku7qrvcZitJxTAcQRSQAs3hV_YEe7v5tQXa0gEevDyCGcAZDP5y7AaBmGk410D-1h88GcCSfp25yCaZF7B9RmQJgjfwR4Y4RRO95I2Uf9kBCN8XY-dgvdTO9u7MsdcSInF0xG0ji5Sz9j_pZmIYAPyBg",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyhhXe77tWnuhmgJErla8Yf24pc-aAXQ6M-Dol3XTaGOMIaQ5zeS7qY76lO_ggwTB8iZKHfEwOkaIFxsC59ZOF1ydePZ8ZCN6MgfHxBrQTpF6SvCxjri7_PdAmH2_qf0CLJQs59axfz1Ou3y8YnlybF_wnGT4J9KVKrFegXfIbIPKNFCf0rUUcU-DP_LiEEVchw5tOMSdwDQ",
               "",
               "",
               ""
@@ -3066,12 +3030,12 @@
             ],
             "score": 0.125,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwh3__ILzoDW4hpIcqvScfEE7qvCDxKn4EfaEBWM9wOdz0MSIyYfEFkCIDxmg-2zwB4cmSaL3EYS7Rq3qw6T5FEko0wKYv3nxnXC0dAg891gy9AI_czVHQKKCU7NicNYhDyKRV6CG5AykYf3BP8o_5kx_YRyK7xac8uN_qq1RhKD7rDpMRuPVwPMNPFx47CUfO1hXPAQ",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyhwzTrAbjEIII3THvviyiB7UKUriwp_rk78jNXL0LSFnhTI03vyN2y6SRlsbnVR0YSaYKEFGHWMxtGBUjECdlNjJc1A3LpAw21zMMsSyRrL5HfE6AlyVvK4SDqRyqm_JTw4HX39jdDPl-Wlw4RR7iHbS1FiFGxV6nnFKCzWmBPcHDxU590aVlKOXIdozeULgBChMjCw",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwh3__ILzoDW4hpIcqvScfEE7qvCDxKn4EfaEBWM9wOdz0MSIyYfEFkCIDxmg-2zwB4cmSaL3EYS7Rq3qw6T5FEko0wKYv3nxnXC0dAg891gy9AI_czVHQKKCU7NicNYhDyKRV6CG5AykYf3BP8o_5kx_YRyK7xac8uN_qq1RhKD7rDpMRuPVwPMNPFx47CUfO1hXPAQ",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyhwzTrAbjEIII3THvviyiB7UKUriwp_rk78jNXL0LSFnhTI03vyN2y6SRlsbnVR0YSaYKEFGHWMxtGBUjECdlNjJc1A3LpAw21zMMsSyRrL5HfE6AlyVvK4SDqRyqm_JTw4HX39jdDPl-Wlw4RR7iHbS1FiFGxV6nnFKCzWmBPcHDxU590aVlKOXIdozeULgBChMjCw",
               "",
               "",
               ""
@@ -3138,12 +3102,12 @@
             ],
             "score": 0.1111111111111111,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwiHaCta9wIc-c6xqAtoNUT3lwPqVpeExFC53w90EUNdpuqG1T73QUBrr2pZPYPQeG49Lpb02LZbFa9Nb06Kdo_RaziNjoJ051d6UnPkzfCXgtRwqv5xVyeSd1qnpmMQ0lSv6p-eqTbk_MbXY0t_pccsWYEKLLjNQivCIbKPQ7Yt6iM3FYomOEsx8B",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyiNwctSqkAj29_5xeivssVB8ATxh3McBf1iK8w0levQ2yIrj5KRlI7rZD4siDSXvt8hTM6-RcRK8CNyv_UepugAve71XwctRjduy_c5G5tEiWyKEQK_wSfyJ_Z6BG4IFpbJT797ScybaQ6_Y-Wmq5_iv25FqLD-v67PelQt-ESNaLAwHTpZkln_QJ",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwiHaCta9wIc-c6xqAtoNUT3lwPqVpeExFC53w90EUNdpuqG1T73QUBrr2pZPYPQeG49Lpb02LZbFa9Nb06Kdo_RaziNjoJ051d6UnPkzfCXgtRwqv5xVyeSd1qnpmMQ0lSv6p-eqTbk_MbXY0t_pccsWYEKLLjNQivCIbKPQ7Yt6iM3FYomOEsx8B",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyiNwctSqkAj29_5xeivssVB8ATxh3McBf1iK8w0levQ2yIrj5KRlI7rZD4siDSXvt8hTM6-RcRK8CNyv_UepugAve71XwctRjduy_c5G5tEiWyKEQK_wSfyJ_Z6BG4IFpbJT797ScybaQ6_Y-Wmq5_iv25FqLD-v67PelQt-ESNaLAwHTpZkln_QJ",
               "",
               "",
               ""
@@ -3174,12 +3138,12 @@
             ],
             "score": 0.1,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwicppOMqVfZzyyPD3XsQrM0RBIvfc1QRf0wF5WAQYjmYwIQZb0-Ih5AWRebPnbStmObhwRmGEL531ISDidVNTuFVfnkokJ-vZHb7t6C3_Gs1l1hVmZpexaY3Fs7febUkQo0-BvY5-uXjH94rHZtLgGzdeVcsROyrltd7j1p-KVlmRzTeDsII3i6rEPrfgRDEifeo7szBswT9WW7kdEip-u4xR7VgNDw",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyif-oPn3Hewl3hVZFFhtc5ZkHFcQ_yxeaZHkCs41P2Uqcof0pFPBBbcXJla-kVdqqMkVwiIyZQTPJuYBjrt617jJ07hpY-Wf9MvBob-1zG7sjinfraC2skBpo5QS572EQzKHMBVx2YYmRVoMWiez_CxpTLr7M0Bd3aJ2_wqoVDYDM9uKTlwikc6fKl-tG1GHpGDM27Z9JlgH16SVQYCD0I_n9M_N6DQ",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwicppOMqVfZzyyPD3XsQrM0RBIvfc1QRf0wF5WAQYjmYwIQZb0-Ih5AWRebPnbStmObhwRmGEL531ISDidVNTuFVfnkokJ-vZHb7t6C3_Gs1l1hVmZpexaY3Fs7febUkQo0-BvY5-uXjH94rHZtLgGzdeVcsROyrltd7j1p-KVlmRzTeDsII3i6rEPrfgRDEifeo7szBswT9WW7kdEip-u4xR7VgNDw",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyif-oPn3Hewl3hVZFFhtc5ZkHFcQ_yxeaZHkCs41P2Uqcof0pFPBBbcXJla-kVdqqMkVwiIyZQTPJuYBjrt617jJ07hpY-Wf9MvBob-1zG7sjinfraC2skBpo5QS572EQzKHMBVx2YYmRVoMWiez_CxpTLr7M0Bd3aJ2_wqoVDYDM9uKTlwikc6fKl-tG1GHpGDM27Z9JlgH16SVQYCD0I_n9M_N6DQ",
               "",
               "",
               ""
@@ -3210,48 +3174,12 @@
             ],
             "score": 0.09090909090909091,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwikaqKkxW7HjrHfzMIVfI6TCDpxJtUQrMGbAicQPU80dEYrZ11_4GF0bui5R8J6qlc9ZeyPsmZdJ65mA-zRRbmyZomoAeHx9MOLKdaED0HXGtfayk5zK_d1g5przNWXBgYwGHd48Cpl07Y1ucwA0ACpuigFXI4W2WgaB_UPP3DgA",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyivmWnk0gxl-5OHrbf9pHZHWH1EEkz0QFWHl2ecnuonNC258R6thvW6yK54pBiHkyvGsiK91QxJ552RZDlHvyoHDMitTaAm_ZPrCZY2eNW7sUoSzOINy1w8kvlJxQRB3VD1ngCFBuN1AVInqI5fJ-g_-gkteI9ShWn5Y-pt_VJAg",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwikaqKkxW7HjrHfzMIVfI6TCDpxJtUQrMGbAicQPU80dEYrZ11_4GF0bui5R8J6qlc9ZeyPsmZdJ65mA-zRRbmyZomoAeHx9MOLKdaED0HXGtfayk5zK_d1g5przNWXBgYwGHd48Cpl07Y1ucwA0ACpuigFXI4W2WgaB_UPP3DgA",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "Docker本地部署Firecrawl-腾讯云开发者社区",
-            "content": "... Firecrawl项目到服务器，配置.env文件，安装Docker镜像，解决GO ... self-hosting using docker, use redis://redis:6379. For running locally, use ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJl4bA9Wnv5lb7B6mKWODIfvu4wubUt0JWhBcuo10a3oAmzfdS7_PEB9mP",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              12
-            ],
-            "score": 0.08333333333333333,
-            "category": "general",
-            "url": "https://cloud.tencent.com.cn/developer/article/2524905",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "cloud.tencent.com.cn",
-              "/developer/article/2524905",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyivmWnk0gxl-5OHrbf9pHZHWH1EEkz0QFWHl2ecnuonNC258R6thvW6yK54pBiHkyvGsiK91QxJ552RZDlHvyoHDMitTaAm_ZPrCZY2eNW7sUoSzOINy1w8kvlJxQRB3VD1ngCFBuN1AVInqI5fJ-g_-gkteI9ShWn5Y-pt_VJAg",
               "",
               "",
               ""
@@ -3282,156 +3210,12 @@
             ],
             "score": 0.08333333333333333,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwi1DizG2_QDwpOJDdNZIjM7W2i4ZTWQBT2ohqUerfCwu43KVaIPG70oZzCE5C11FyxG1IYzwtSayKOIU5ssgqhNvC0Ge3sD95JYQkb_j67Chfs5PskFx5UzN7XRIhBZ9rWAP8cC4suKq-hTTXhoFjfWw4E5zWFKlNxUyT-GBN4zMJ",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyi_D8ONl5jcfQbdHmF6Z-Yim-y4IKU0dPsagNcn0_3EEKTriq-erc3GozUaSq85--n_Ju4z_u4U3KeqXxGTXA7zTpFjGgV_BSnGBN6YhpiU0FHYMqWPHfAoRlr1rnRDThf6BwfHlFMQEEpaIL0fpQA_-56-JBQpPRxl8GPC8B9ygL",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwi1DizG2_QDwpOJDdNZIjM7W2i4ZTWQBT2ohqUerfCwu43KVaIPG70oZzCE5C11FyxG1IYzwtSayKOIU5ssgqhNvC0Ge3sD95JYQkb_j67Chfs5PskFx5UzN7XRIhBZ9rWAP8cC4suKq-hTTXhoFjfWw4E5zWFKlNxUyT-GBN4zMJ",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "快速入门 | Firecrawl 文档",
-            "content": "使用操作与页面交互 Firecrawl 允许您在抓取内容之前对网页执行各种操作。 这对于与动态内容交互、浏览页面或访问需要用户交互的内容特别有用。 以下是如何使用操作导航到 google.com、搜索 Firecrawl、单击第一个结果并截取屏幕截图的示例。",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "duckduckgo"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              10
-            ],
-            "score": 0.1,
-            "category": "general",
-            "url": "https://docs.firecrawl.org.cn/",
-            "engine": "duckduckgo",
-            "parsed_url": [
-              "https",
-              "docs.firecrawl.org.cn",
-              "/",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "Low-cost alternatives to Firecrawl? : r/LocalLLaMA - Reddit",
-            "content": "2026年1月26日 ... Self-hosted firecrawl does a fantastic job unless you need very specific use cases like sandboxed browser agent etc. There are a few ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              11
-            ],
-            "score": 0.09090909090909091,
-            "category": "general",
-            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qmzz8e/lowcost_alternatives_to_firecrawl/",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "www.reddit.com",
-              "/r/LocalLLaMA/comments/1qmzz8e/lowcost_alternatives_to_firecrawl/",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "Apidog",
-            "content": "Quick answer: pick Firecrawl Local if you want scrape, crawl, map and batch scrape on a laptop or in an agent’s toolbelt with zero infrastructure. Keep the self-hosted Docker stack if you need persistent jobs, the json and summary formats, LLM extraction through your own model, or a search route that never touches Firecrawl Cloud.",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "",
-            "publishedDate": "2026-11-19T08:38:26",
-            "pubdate": "2026-11-19 08:38:26",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "brave"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              18
-            ],
-            "score": 0.05555555555555555,
-            "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwkeCCBKbXOPqXd3A1rYi-Vipfr_xyTS6Y-ks8_vzu504a9hzKiWs91KPbEhiggc9TdLVHZOvkqNV5iFc3dgcW19wZIwU1u-0T4ziDKdsl0YLMF7gAbOzaJbtqlLo5EufgRWVpSoQTDYXUfi1cx0BDXemYR8MqcK-if4rVZxQ6XWD1033rTkccBI9ZBwo",
-            "engine": "brave",
-            "parsed_url": [
-              "http",
-              "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwkeCCBKbXOPqXd3A1rYi-Vipfr_xyTS6Y-ks8_vzu504a9hzKiWs91KPbEhiggc9TdLVHZOvkqNV5iFc3dgcW19wZIwU1u-0T4ziDKdsl0YLMF7gAbOzaJbtqlLo5EufgRWVpSoQTDYXUfi1cx0BDXemYR8MqcK-if4rVZxQ6XWD1033rTkccBI9ZBwo",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "Firecrawl | Microsoft Marketplace",
-            "content": "Self-host Firecrawl using Docker for greater control over infrastructure, data, and deployment. Firecrawl Usage: $ sudo su $ apt update $ cd /opt/firecrawl ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              20
-            ],
-            "score": 0.05,
-            "category": "general",
-            "url": "https://marketplace.microsoft.com/ja-jp/product/athinfosystems1641442221349.firecrawl",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "marketplace.microsoft.com",
-              "/ja-jp/product/athinfosystems1641442221349.firecrawl",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyi_D8ONl5jcfQbdHmF6Z-Yim-y4IKU0dPsagNcn0_3EEKTriq-erc3GozUaSq85--n_Ju4z_u4U3KeqXxGTXA7zTpFjGgV_BSnGBN6YhpiU0FHYMqWPHfAoRlr1rnRDThf6BwfHlFMQEEpaIL0fpQA_-56-JBQpPRxl8GPC8B9ygL",
               "",
               "",
               ""
@@ -3475,6 +3259,150 @@
           },
           {
             "template": "default.html",
+            "title": "GitHub - firecrawl/firecrawl: Knowledge infrastructure to make your ...",
+            "content": "Run Firecrawl on your own machine as one binary that turns websites into clean markdown, plugs into your AI agent as an MCP server and serves the Firecrawl API on localhost.",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "duckduckgo"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              10
+            ],
+            "score": 0.1,
+            "category": "general",
+            "url": "https://github.com/firecrawl/firecrawl",
+            "engine": "duckduckgo",
+            "parsed_url": [
+              "https",
+              "github.com",
+              "/firecrawl/firecrawl",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "Low-cost alternatives to Firecrawl? : r/LocalLLaMA - Reddit",
+            "content": "2026年1月26日 ... Self-hosted firecrawl does a fantastic job unless you need very specific use cases like sandboxed browser agent etc. There are a few ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              12
+            ],
+            "score": 0.08333333333333333,
+            "category": "general",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qmzz8e/lowcost_alternatives_to_firecrawl/",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "www.reddit.com",
+              "/r/LocalLLaMA/comments/1qmzz8e/lowcost_alternatives_to_firecrawl/",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "Firecrawl | Microsoft Marketplace",
+            "content": "Self-host Firecrawl using Docker for greater control over infrastructure, data, and deployment. Firecrawl Usage: $ sudo su $ apt update $ cd /opt/firecrawl ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              17
+            ],
+            "score": 0.058823529411764705,
+            "category": "general",
+            "url": "https://marketplace.microsoft.com/nl-nl/product/athinfosystems1641442221349.firecrawl",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "marketplace.microsoft.com",
+              "/nl-nl/product/athinfosystems1641442221349.firecrawl",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "Apidog",
+            "content": "Quick answer: pick Firecrawl Local if you want scrape, crawl, map and batch scrape on a laptop or in an agent’s toolbelt with zero infrastructure. Keep the self-hosted Docker stack if you need persistent jobs, the json and summary formats, LLM extraction through your own model, or a search route that never touches Firecrawl Cloud.",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "",
+            "publishedDate": "2026-11-19T00:00:00",
+            "pubdate": "2026-11-19 00:00:00",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "brave"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              19
+            ],
+            "score": 0.05263157894736842,
+            "category": "general",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAykv06zG0iK9Kfgwguzo1taXXMhJ3XZMLiN4-3o6d3LeX05uPocasyRNBHF6x-Ks8n6wCJEvIyY8lDcrLBdxsEAHEEOENoI7K3zgWnkYDEI1Blf4QThA3Rrvk3eYzf01x6MJM92--2ugs2aHVQLRHQmMxXet4N2RtCN2hd2woOCuBwEDCIeb6P8hpzCwk",
+            "engine": "brave",
+            "parsed_url": [
+              "http",
+              "",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAykv06zG0iK9Kfgwguzo1taXXMhJ3XZMLiN4-3o6d3LeX05uPocasyRNBHF6x-Ks8n6wCJEvIyY8lDcrLBdxsEAHEEOENoI7K3zgWnkYDEI1Blf4QThA3Rrvk3eYzf01x6MJM92--2ugs2aHVQLRHQmMxXet4N2RtCN2hd2woOCuBwEDCIeb6P8hpzCwk",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
             "title": "Which web scraper allows you to self-host but also has a cloud ...",
             "content": "Firecrawl offers both a managed cloud API and a self-hosted deployment for teams that need flexibility, privacy, and control.",
             "img_src": "",
@@ -3498,12 +3426,48 @@
             ],
             "score": 0.07692307692307693,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwjB-IoeHRkCyLC6YPNiOJbu5iCOK3Dqya7bjKHHwaxn0PTfcNuDOstPv9sakhHImZrrVykWLRSzrg4BVoAFflDGAdwK3RCRKYiStbUyFHjJCGrxDHc2hsGT0iurhDgAT6hXm0MIKACI9YqvSiYzKwJfMGV0uRg_NgnweLjLNgQD0vnwwrzmkYluHJeJ4X1u-wgCrxwyh2QDE5yj_uPdTvl_TG5nEJR73lhJzQjxly8wRk-iUiKQQ",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyjN0-Gx--igTfzik9AChoAC77jfjz4pFy2OTGJEKjgiVbbbP7KgT53C9sXedE8_QGOQp9eQkGhXs2VK9czIYf3mNPh5pm-zUJLHnOGF0O_XILXNmitazb32o2CfFAzv8MbD4YnsvuE_j8GVqptOaIKzpQVHPMC82IFzAewR6AB9juRTON1XFZofROLVkKrjV0veSPjufi-FJM5Dw4a5UIdtpPTjUIF-hJEaAgxfqWNrgdNDi2-AY",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwjB-IoeHRkCyLC6YPNiOJbu5iCOK3Dqya7bjKHHwaxn0PTfcNuDOstPv9sakhHImZrrVykWLRSzrg4BVoAFflDGAdwK3RCRKYiStbUyFHjJCGrxDHc2hsGT0iurhDgAT6hXm0MIKACI9YqvSiYzKwJfMGV0uRg_NgnweLjLNgQD0vnwwrzmkYluHJeJ4X1u-wgCrxwyh2QDE5yj_uPdTvl_TG5nEJR73lhJzQjxly8wRk-iUiKQQ",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyjN0-Gx--igTfzik9AChoAC77jfjz4pFy2OTGJEKjgiVbbbP7KgT53C9sXedE8_QGOQp9eQkGhXs2VK9czIYf3mNPh5pm-zUJLHnOGF0O_XILXNmitazb32o2CfFAzv8MbD4YnsvuE_j8GVqptOaIKzpQVHPMC82IFzAewR6AB9juRTON1XFZofROLVkKrjV0veSPjufi-FJM5Dw4a5UIdtpPTjUIF-hJEaAgxfqWNrgdNDi2-AY",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "Docker本地部署Firecrawl-腾讯云开发者社区",
+            "content": "... Firecrawl项目到服务器，配置.env文件，安装Docker镜像，解决GO ... self-hosting using docker, use redis://redis:6379. For running locally, use ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJl4bA9Wnv5lb7B6mKWODIfvu4wubUt0JWhBcuo10a3oAmzfdS7_PEB9mP",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              14
+            ],
+            "score": 0.07142857142857142,
+            "category": "general",
+            "url": "https://cloud.tencent.com.cn/developer/article/2524905",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "cloud.tencent.com.cn",
+              "/developer/article/2524905",
               "",
               "",
               ""
@@ -3534,12 +3498,12 @@
             ],
             "score": 0.07142857142857142,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwjWELt4qNLByde-dZ4sYrGaOSATjSNLnajfEt-Ksn8oEDvNyuMLlW5FWnFbhly3jiOQ3s0AZbkDmelZHqRelo57NhjhFWCoKH6hBHNc23ig6D4cbyLTDXXNwqS89HqjMYiGK3iPiX5XxtXC-F1M3XYADM1OoJGOtcrg1H2W9FYf6vFhCkj972qXbaSAQ",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyjfur1rI_ZWJDqRjdSF7UEq74ruWGGPXCERup9Jmeqke4t5lqufkFT1W9mCuDSuzdTeVs9hWh8zRSsmUnXmNEx3IjjgvZLNLjS3XgTlcbXBlj1dhOgm1ZYgKYjsbFcag5vykfCmA25r972sva-9S3V8oc1_eDQFpgDiu6U5WMcap_piB6rZ2x5Rb-UQE",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwjWELt4qNLByde-dZ4sYrGaOSATjSNLnajfEt-Ksn8oEDvNyuMLlW5FWnFbhly3jiOQ3s0AZbkDmelZHqRelo57NhjhFWCoKH6hBHNc23ig6D4cbyLTDXXNwqS89HqjMYiGK3iPiX5XxtXC-F1M3XYADM1OoJGOtcrg1H2W9FYf6vFhCkj972qXbaSAQ",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyjfur1rI_ZWJDqRjdSF7UEq74ruWGGPXCERup9Jmeqke4t5lqufkFT1W9mCuDSuzdTeVs9hWh8zRSsmUnXmNEx3IjjgvZLNLjS3XgTlcbXBlj1dhOgm1ZYgKYjsbFcag5vykfCmA25r972sva-9S3V8oc1_eDQFpgDiu6U5WMcap_piB6rZ2x5Rb-UQE",
               "",
               "",
               ""
@@ -3606,12 +3570,48 @@
             ],
             "score": 0.06666666666666667,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwjogHRrrdBFeiNjSW7eKE-mSs8IuyMfYUIKR_MStc2x-H3FA_HfNhGK86pReF7Yhkq5CyccWXf80AdCXrRXBXxNAjdF-QC5PQXBt0Cd94oUgFTSJ6PfBRelYeFzG5VGcBCq8e7Fi8JmwmpvGMhTzgYiXSHiD-e_o3oQWN_3SkF0inFQzLUh0_PQQSbnjZQfyOSRBGI36tJziLkFYMt9IEPkHrHBMd-vQJgs2yODVTzb-cBw",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyjhNwILAO4PJtzYDSYJRJEoWO701VwrKzWBT5OEcXiL6hM572FCj9j1pPQiIX2Qcwa1gVna5hkouC2XidkbGZijLjx8z-GIdil9GpPW-J4EfdAiZWHAcOmtutVGwxpH-2d8mPrgzaRH0BOFokmOb-B0jpdGmrY27-Zrx1agOTODmgtLpeZSMfzyd20z2vNvK6zXAIjM7TbjpkQVYPCaGcGwhsyqQPpS2NhkliGoljbV3QDg",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwjogHRrrdBFeiNjSW7eKE-mSs8IuyMfYUIKR_MStc2x-H3FA_HfNhGK86pReF7Yhkq5CyccWXf80AdCXrRXBXxNAjdF-QC5PQXBt0Cd94oUgFTSJ6PfBRelYeFzG5VGcBCq8e7Fi8JmwmpvGMhTzgYiXSHiD-e_o3oQWN_3SkF0inFQzLUh0_PQQSbnjZQfyOSRBGI36tJziLkFYMt9IEPkHrHBMd-vQJgs2yODVTzb-cBw",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyjhNwILAO4PJtzYDSYJRJEoWO701VwrKzWBT5OEcXiL6hM572FCj9j1pPQiIX2Qcwa1gVna5hkouC2XidkbGZijLjx8z-GIdil9GpPW-J4EfdAiZWHAcOmtutVGwxpH-2d8mPrgzaRH0BOFokmOb-B0jpdGmrY27-Zrx1agOTODmgtLpeZSMfzyd20z2vNvK6zXAIjM7TbjpkQVYPCaGcGwhsyqQPpS2NhkliGoljbV3QDg",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "Firecrawl, the TinyFish Alternative",
+            "content": "The Firecrawl platform is fully open source under AGPL-3.0 with 200K+ GitHub stars, and it can be self-hosted for full control over data, compliance, and ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSR6JB07d7NUHWyjLhyj10OI9eLtq9gyPCytG-ZFoCFZhySMZFCQJDAEugz",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              16
+            ],
+            "score": 0.0625,
+            "category": "general",
+            "url": "https://www.firecrawl.dev/alternatives/firecrawl-vs-tinyfish",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "www.firecrawl.dev",
+              "/alternatives/firecrawl-vs-tinyfish",
               "",
               "",
               ""
@@ -3642,48 +3642,12 @@
             ],
             "score": 0.0625,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwj2eIQRBp-pw2NiDyr7XHvPIKBkkeUd7WnlBPtFR-yBDJOLfookvJQdr9G5i2Nx4Fc3gexB0dG9BJRuGQ2ASQsgkHRxO0T1kycwIAVgiD0GsNxAr0UQZkkGmpYlsfZCCMGz7VBq0HYdhTcl1GkWpkqi7HvmiyQEYJLkMI",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyjyGofWu2cZEXkma4nbriVdYvObrildV3uO3V9IypzKDvyIynGO9MvsuUzaL69hJiaHMWhoqoxK_OHl4_v1n9rFHh_jW0XWPVkQs7YgB1a3XG0Rftj-dP73QZd2JkmWosxbTlqXB40fJiumqlkWOaWB8pvTnAcm1hMMcH",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwj2eIQRBp-pw2NiDyr7XHvPIKBkkeUd7WnlBPtFR-yBDJOLfookvJQdr9G5i2Nx4Fc3gexB0dG9BJRuGQ2ASQsgkHRxO0T1kycwIAVgiD0GsNxAr0UQZkkGmpYlsfZCCMGz7VBq0HYdhTcl1GkWpkqi7HvmiyQEYJLkMI",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "Best Firecrawl Alternative for Anti-Bot Bypass - Zenrows",
-            "content": "2026年7月15日 ... Zenrows is the best Firecrawl alternative for developers who need to scrape sites protected by Cloudflare, DataDome, PerimeterX, ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIFGlmIaGkB3rRWxBcOkxdwQhyZuyHAx1CJR_v1JjhIUTkeDd1djMUomVZ",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              17
-            ],
-            "score": 0.058823529411764705,
-            "category": "general",
-            "url": "https://www.zenrows.com/blog/best-firecrawl-alternative-for-anti-bot-bypass",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "www.zenrows.com",
-              "/blog/best-firecrawl-alternative-for-anti-bot-bypass",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAyjyGofWu2cZEXkma4nbriVdYvObrildV3uO3V9IypzKDvyIynGO9MvsuUzaL69hJiaHMWhoqoxK_OHl4_v1n9rFHh_jW0XWPVkQs7YgB1a3XG0Rftj-dP73QZd2JkmWosxbTlqXB40fJiumqlkWOaWB8pvTnAcm1hMMcH",
               "",
               "",
               ""
@@ -3714,12 +3678,12 @@
             ],
             "score": 0.058823529411764705,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwkItSRh2V1KMytPPH-aZxkeDKe0MXFLljeLgqFoTouSt7eMYAzJ2x3hqd0fwKkm8u2kYRVAT7qes4QQSARR8rF5LMGRuvvHhsMhC84yy-UYrwgIQ3RyQazea2gq1rz2-isAHe4cmQRYkKxn5WV5YXlcGBK49YejoSEjBB0Vjo8oOlBkAIfBiH3EhwFHNOs6RY3TlHc12aDmyXG4Raw1dHqk62OjPg6pJcYM1eCA",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAykMI2u1V8LdK0Ks1jYXkjgcwB6orJO-XWIT6fqw-eHazBck1qDi5RU41e-oVZ7pG5nxz7ebn3X9VZ8yXIPKVZpeWopjVqByPrHKrujbt0a_4BFBXHDnXs6K1HzfYhFMTOgtKi3fX2n4Q-OkBBRavitCPRik0VxQB1QCBndRBehUl1oxszbrsC-GXEEJnXuvYAgC9A54MZZfjI1cc3gfdEgJu4quL4xLyDtjngBA",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwkItSRh2V1KMytPPH-aZxkeDKe0MXFLljeLgqFoTouSt7eMYAzJ2x3hqd0fwKkm8u2kYRVAT7qes4QQSARR8rF5LMGRuvvHhsMhC84yy-UYrwgIQ3RyQazea2gq1rz2-isAHe4cmQRYkKxn5WV5YXlcGBK49YejoSEjBB0Vjo8oOlBkAIfBiH3EhwFHNOs6RY3TlHc12aDmyXG4Raw1dHqk62OjPg6pJcYM1eCA",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAykMI2u1V8LdK0Ks1jYXkjgcwB6orJO-XWIT6fqw-eHazBck1qDi5RU41e-oVZ7pG5nxz7ebn3X9VZ8yXIPKVZpeWopjVqByPrHKrujbt0a_4BFBXHDnXs6K1HzfYhFMTOgtKi3fX2n4Q-OkBBRavitCPRik0VxQB1QCBndRBehUl1oxszbrsC-GXEEJnXuvYAgC9A54MZZfjI1cc3gfdEgJu4quL4xLyDtjngBA",
               "",
               "",
               ""
@@ -3727,12 +3691,12 @@
           },
           {
             "template": "default.html",
-            "title": "Firecrawl API review: credits, limits and the free tier - Frontal AI",
-            "content": "2026年10月13日 ... Firecrawl is open source, so the behavior you are paying the hosted service for is inspectable, and self-hosting is a real option if your ...",
+            "title": "I Didn't Want to Pay for Web Search in My Own Homelab, So I Built ...",
+            "content": "2026年4月16日 ... How a self-hosted LibreChat setup turned into a full private web search pipeline for AI agents — SearXNG, a homegrown reranker, Firecrawl, ...",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKRCScYGSRN54RmzEwuqkreo0IeFE4dyjLCejJ3kecbyqaZ-zIZw4HGBwS",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROO9Sj5tV8XrKDRKv8Zz4x7uqpZZntu0TBUAvwR9z6Ip_l7PvSff9vIiVU",
             "publishedDate": null,
             "pubdate": "",
             "length": null,
@@ -3750,48 +3714,12 @@
             ],
             "score": 0.05555555555555555,
             "category": "general",
-            "url": "https://frontal.so/gtm-apis/source-apis/firecrawl-api-review",
+            "url": "https://dev.to/tadmstr/i-didnt-want-to-pay-for-web-search-in-my-own-homelab-so-i-built-the-pipeline-5h2l",
             "engine": "google cse",
             "parsed_url": [
               "https",
-              "frontal.so",
-              "/gtm-apis/source-apis/firecrawl-api-review",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "template": "default.html",
-            "title": "Best Self-Hosted Web Scraping Tools for AI Agents and RAG (2026)",
-            "content": "2026年7月12日 ... Want to self-host your scraping stack? We compare Firecrawl, Crawl4AI, and fastCRW for AI agents and RAG — setup guides, config tables, scaling ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRtxeACAz7SuWt-lK-lx38OiA7ad9ZZ2b9aIqTWSktW934a2ol7IxLA2YgH",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "google cse"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              19
-            ],
-            "score": 0.05263157894736842,
-            "category": "general",
-            "url": "https://fastcrw.com/blog/best-self-hosted-scrapers",
-            "engine": "google cse",
-            "parsed_url": [
-              "https",
-              "fastcrw.com",
-              "/blog/best-self-hosted-scrapers",
+              "dev.to",
+              "/tadmstr/i-didnt-want-to-pay-for-web-search-in-my-own-homelab-so-i-built-the-pipeline-5h2l",
               "",
               "",
               ""
@@ -3818,16 +3746,88 @@
             "open_group": false,
             "close_group": false,
             "positions": [
-              19
+              18
             ],
-            "score": 0.05263157894736842,
+            "score": 0.05555555555555555,
             "category": "general",
-            "url": "http:///go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwkpqPN7r4EarLzjbbo_Eg5DaX2W0sp2XfuKGC6mes20V5xtthoYEjo-6McrR1XQgmPZ_ar6jHsI6dq01vvktN51CntYnOjRMDbI6mgyvvCpQOnyhFwR0_Ab7qkbYbBcuqFKUr9aRmdoGlJwVrSMopcpH03mqJ8wW_Cu1blnHWVkRXAw",
+            "url": "http:///go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAykcO44fhdsh_CgtlWVZpMtspEF1G0IFjA7pJsQBNUOt_fF20k4B_yv1IPufDJSBa3pGbmcf39vvYlnXJwg-x24dKS6r8Lu-0nKmNXmZ8Pdct8ksk0pZaKjxKmAWLYnhLDBRrKH0N9xEc8QH_s5Q1b8qF2BkpQglEqF83yWAtaMTxGBg",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/AbWIzFwRpQ0Oawo46AGvLPow8fuH13PlTaOBlrFwkpqPN7r4EarLzjbbo_Eg5DaX2W0sp2XfuKGC6mes20V5xtthoYEjo-6McrR1XQgmPZ_ar6jHsI6dq01vvktN51CntYnOjRMDbI6mgyvvCpQOnyhFwR0_Ab7qkbYbBcuqFKUr9aRmdoGlJwVrSMopcpH03mqJ8wW_Cu1blnHWVkRXAw",
+              "/go/v1/AVsOskPPOl__awpJjAGZ9ZrS8-0K5DpaldXklhAykcO44fhdsh_CgtlWVZpMtspEF1G0IFjA7pJsQBNUOt_fF20k4B_yv1IPufDJSBa3pGbmcf39vvYlnXJwg-x24dKS6r8Lu-0nKmNXmZ8Pdct8ksk0pZaKjxKmAWLYnhLDBRrKH0N9xEc8QH_s5Q1b8qF2BkpQglEqF83yWAtaMTxGBg",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "Firecrawl API review: credits, limits and the free tier - Frontal AI",
+            "content": "2026年10月13日 ... Firecrawl is open source, so the behavior you are paying the hosted service for is inspectable, and self-hosting is a real option if your ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKRCScYGSRN54RmzEwuqkreo0IeFE4dyjLCejJ3kecbyqaZ-zIZw4HGBwS",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              19
+            ],
+            "score": 0.05263157894736842,
+            "category": "general",
+            "url": "https://frontal.so/gtm-apis/source-apis/firecrawl-api-review",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "frontal.so",
+              "/gtm-apis/source-apis/firecrawl-api-review",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "Self-Host Firecrawl on Kubernetes: Production Guide - Oreon IT",
+            "content": "2026年11月5日 ... Using managed PostgreSQL · Cloud SQL: set the flag cloudsql.enable_pg_cron=on and cron.database_name to the Firecrawl database. · RDS or Aurora: ...",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTeOWP5UrvYXroOdWnWM823LtzOmGEJNRSQTiPMMlq7XxDMSJb8wZ5t9c8R",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "google cse"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              20
+            ],
+            "score": 0.05,
+            "category": "general",
+            "url": "https://www.oreonit.com/self-host-firecrawl-kubernetes/",
+            "engine": "google cse",
+            "parsed_url": [
+              "https",
+              "www.oreonit.com",
+              "/self-host-firecrawl-kubernetes/",
               "",
               "",
               ""
@@ -4071,7 +4071,7 @@
           {
             "url": "https://en.m.wikipedia.org/wiki/Large_language_model",
             "title": "Large language model - Wikipedia",
-            "content": "A large language model (LLM) is a machine learning model (typically a neural network) trained on a vast amount of text for natural …阅读更多",
+            "content": "A large language model (LLM) is a machine learning model (typically a neural network) trained on a vast amount of text for natural …",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -4135,7 +4135,7 @@
           {
             "url": "https://www.geeksforgeeks.org/artificial-intelligence/large-language-model-llm/",
             "title": "Introduction to Large Language Model (LLM) - GeeksforGeeks",
-            "content": "2026年9月16日 · Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners …阅读更多",
+            "content": "2026年9月16日 · Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners …",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -4163,7 +4163,7 @@
           {
             "template": "default.html",
             "title": "AnythingLLM 接入 Web Search - 知乎",
-            "content": "虽然这个组合已经具备了处理私有数据和文档的 AI 应用能力，但在实际应用中，我们通常还需要结合 Web 搜索能力，以便获取最新的信息并输出更加有效的结果。 本文将详细介绍如何在 AnythingLLM 中启用 Web 搜索功能，并配置 Google Search Engine 和 DuckDuckGo ...",
+            "content": "虽然这个组合已经具备了处理私有数据和文档的 AI 应用能力，但在实际应用中，我们通常还需要结合 Web 搜索能力，以便获取最新的信息并输出更加有效的结果。 本文将详细介绍如何在 AnythingLLM 中启用 Web 搜索功能，并配置 Google Search Engine 和 DuckDuckGo 搜索引擎。",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
@@ -4199,7 +4199,7 @@
           {
             "url": "https://theairankings.com/guides/what-is-an-llm/",
             "title": "What Is an LLM? Large Language Models Explained (2026 ...",
-            "content": "2026年10月7日 · What a large language model is, how LLMs work, what tokens and inference mean, and why LLMs hallucinate, …阅读更多",
+            "content": "2026年10月7日 · What a large language model is, how LLMs work, what tokens and inference mean, and why LLMs hallucinate, …",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -4227,7 +4227,7 @@
           {
             "template": "default.html",
             "title": "在 LLM 上接 Web Search 和 Web Fetch，让 AI 长出\"实时 ...",
-            "content": "Web Search 的任务是把用户的自然语言问题，翻译成一次或多次搜索引擎查询，然后返回候选链接列表和摘要。 具体流程是： 1. 查询改写：用户的输入往往口语化、模糊，\"今天的大新闻\"得改写成\"2026年8月13日 AI 新闻\"、\"最新 AI 行业动态\"这种搜索友好的 ...",
+            "content": "大模型联网需经Web Search、Web Fetch、LLM整合三段流水线，解决知识过时与幻觉问题。 溯己（ShadowWorld）让AI虚拟人格自主搜索、抓取、整合信息，形成个性化认知并输出内容，实现AI自我进化生态。",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
@@ -4263,7 +4263,7 @@
           {
             "url": "https://learn.microsoft.com/en-us/agent-framework/journey/llm-fundamentals",
             "title": "LLM Fundamentals | Microsoft Learn",
-            "content": "2026年8月25日 · The LLM never executes anything. It only generates the request. Your application code (or an agent framework) is …阅读更多",
+            "content": "2026年8月25日 · The LLM never executes anything. It only generates the request. Your application code (or an agent framework) is …",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -4421,12 +4421,12 @@
             ],
             "score": 1.0,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzgKSstHvw2S7cVvySeL2C-fLQ-gkK42VDztOUX2ztsb8Ks3lJC3pNBsELJgBUhWFSO_57EPuGRcV8ok_NiKKWGs4olQ0EIMTAr_9YbpwiFFSX3FRtfpOJ7A2S6aVZPNlM0Cz7AlcMRwA4RSYH-Hn15qvlyeNBUL-d7JFYnfMvFMTspR8jmkoO",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVgOf2S462cDapg0L_Xr5DlIo9E1E1lgZ5rcAAId74VMykzKw5yNAaf5sJWTyn-iD2bGQ2GvMD_q4WdF0duA5HpdbgYXsixNF-FIa3-CqPZC-MN07lAiAvB3WY3SaxGqZ-3RKS0mbXiEB6Z5bpM8R43visp_jXNJJH67BTWLxQPckYB9hLzDYK",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzgKSstHvw2S7cVvySeL2C-fLQ-gkK42VDztOUX2ztsb8Ks3lJC3pNBsELJgBUhWFSO_57EPuGRcV8ok_NiKKWGs4olQ0EIMTAr_9YbpwiFFSX3FRtfpOJ7A2S6aVZPNlM0Cz7AlcMRwA4RSYH-Hn15qvlyeNBUL-d7JFYnfMvFMTspR8jmkoO",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVgOf2S462cDapg0L_Xr5DlIo9E1E1lgZ5rcAAId74VMykzKw5yNAaf5sJWTyn-iD2bGQ2GvMD_q4WdF0duA5HpdbgYXsixNF-FIa3-CqPZC-MN07lAiAvB3WY3SaxGqZ-3RKS0mbXiEB6Z5bpM8R43visp_jXNJJH67BTWLxQPckYB9hLzDYK",
               "",
               "",
               ""
@@ -4493,12 +4493,12 @@
             ],
             "score": 0.5,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzgeT4SeINBIAQZALtBEBr_xaS4goDOVtOW5BwOtL22yV0OTVDC2sABF9U1R1mGXzBLHgQ2-G1NiNQcuUqldXXKSZzTBNYY4PmdIHlStcmDM01Pxz5s9xzmQCbKi6YQIzfnriv0e5-CrfCj4aJGasAayZOaRaKebByCNg4U8sdf953UC26s5f73HpbhgoaB4eHeKQmoh5xQ0zPOVgDY9L-83QCGWEn7qx0X5Q7dr2egzIxo4DwekVB-cuY1gg",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVgYXt7Ts-9oG_ZZscm9Pc2SIWsxK5wvh5PjclPDmpQp3u9nzIEsOLCqfEzmhasFzk-rcDx6sIWf-Gqvbxgu-_ArUH6VDzuIDY1pgFrBK23rzG0rVgdJCzdsjKSb20c9EkxwvTX2dvK_7ASYO-VM3Hh7wpTWZpBhM12x0-2ibtq8KQd3Vaa3_9lZMbC6_rh-biKpkmM8Iwqax2BcgawS-Zdaa9vHxGjZiwhUp6ODMOyVGdktpiJ2pWBtHn_Qc",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzgeT4SeINBIAQZALtBEBr_xaS4goDOVtOW5BwOtL22yV0OTVDC2sABF9U1R1mGXzBLHgQ2-G1NiNQcuUqldXXKSZzTBNYY4PmdIHlStcmDM01Pxz5s9xzmQCbKi6YQIzfnriv0e5-CrfCj4aJGasAayZOaRaKebByCNg4U8sdf953UC26s5f73HpbhgoaB4eHeKQmoh5xQ0zPOVgDY9L-83QCGWEn7qx0X5Q7dr2egzIxo4DwekVB-cuY1gg",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVgYXt7Ts-9oG_ZZscm9Pc2SIWsxK5wvh5PjclPDmpQp3u9nzIEsOLCqfEzmhasFzk-rcDx6sIWf-Gqvbxgu-_ArUH6VDzuIDY1pgFrBK23rzG0rVgdJCzdsjKSb20c9EkxwvTX2dvK_7ASYO-VM3Hh7wpTWZpBhM12x0-2ibtq8KQd3Vaa3_9lZMbC6_rh-biKpkmM8Iwqax2BcgawS-Zdaa9vHxGjZiwhUp6ODMOyVGdktpiJ2pWBtHn_Qc",
               "",
               "",
               ""
@@ -4527,9 +4527,9 @@
             "close_group": false,
             "positions": [
               14,
-              8
+              9
             ],
-            "score": 0.39285714285714285,
+            "score": 0.36507936507936506,
             "category": "general",
             "url": "https://docs.litellm.ai/docs/completion/web_search",
             "engine": "google cse",
@@ -4603,12 +4603,12 @@
             ],
             "score": 0.3333333333333333,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzgqc58ealTXBKS7KB90Ckd3G0mK5s7hIIOcoHkD2jUQfBxCBTgg7RAd93fyrq4rkek1XZJwHW-vber4gcR1nXGUlHlJl_5HEgb9oBOVwOakys7JHrnRKa0mllykYm34WIFR7S8sxA4wjaOwKx1dpcV6bCfDK-c06EDZyYPYID",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVgr99Ss8O7HtlrtEVKOvGRc6DHfwjnnglLttv7kl68PDYQHUt9xS3S-N8yy-lJeZXH5x7c_kAS3KF_41Wblxz9F1d_0uiDKEsCFsBHpns4CbD6mCxIZAM2Lqy7z63ovob9nj2E-j0vcG0uxzLHcLZEyG4vEHZOCmesP7Ibn0D",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzgqc58ealTXBKS7KB90Ckd3G0mK5s7hIIOcoHkD2jUQfBxCBTgg7RAd93fyrq4rkek1XZJwHW-vber4gcR1nXGUlHlJl_5HEgb9oBOVwOakys7JHrnRKa0mllykYm34WIFR7S8sxA4wjaOwKx1dpcV6bCfDK-c06EDZyYPYID",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVgr99Ss8O7HtlrtEVKOvGRc6DHfwjnnglLttv7kl68PDYQHUt9xS3S-N8yy-lJeZXH5x7c_kAS3KF_41Wblxz9F1d_0uiDKEsCFsBHpns4CbD6mCxIZAM2Lqy7z63ovob9nj2E-j0vcG0uxzLHcLZEyG4vEHZOCmesP7Ibn0D",
               "",
               "",
               ""
@@ -4639,12 +4639,12 @@
             ],
             "score": 0.25,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzg4MJt_U_Ak7nIVdceorbjOEj_Qsuy3EUzIYmhzOW-aFDwIrLVpVnNKaLPR0tsOcx5qMy4EINRK9hqqWYfZPBSyNDaFRarP9NRo879e3H0SMnKs9V_WCp8GqEdX7oks4eE8b-at0_lqVinbQJHscB78HL6pZlId5P1RcAiulXMz0H",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVg59qzSsLdIwN_Xgu_wRM0aMD6C2PnlQyp47lIGMw9HdzAfyGkltcZsp8dgJ94vojHBtEhwO9G4EIbzVI7jGZOTb_JSNCAu4p0Q_08fQNC12AkTNKbTqVVoRHRsREARgcQh-UJCVwF2ewMgYt-iw4NLyofOtk-TCzB9lGiuGkW48J",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzg4MJt_U_Ak7nIVdceorbjOEj_Qsuy3EUzIYmhzOW-aFDwIrLVpVnNKaLPR0tsOcx5qMy4EINRK9hqqWYfZPBSyNDaFRarP9NRo879e3H0SMnKs9V_WCp8GqEdX7oks4eE8b-at0_lqVinbQJHscB78HL6pZlId5P1RcAiulXMz0H",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVg59qzSsLdIwN_Xgu_wRM0aMD6C2PnlQyp47lIGMw9HdzAfyGkltcZsp8dgJ94vojHBtEhwO9G4EIbzVI7jGZOTb_JSNCAu4p0Q_08fQNC12AkTNKbTqVVoRHRsREARgcQh-UJCVwF2ewMgYt-iw4NLyofOtk-TCzB9lGiuGkW48J",
               "",
               "",
               ""
@@ -4675,12 +4675,12 @@
             ],
             "score": 0.2,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzhCf6CdiO4bYyghovwK18qw90KZPa1CCw8tOfYgGeMXLaL4FePdjAQNo-Des5Mgre2NS-nO3wBcfmH1nPVMQakwFP7PMP81JEtd4DOicsknXTDLiBGJzgqBAX-opfcqOmAIIljA9AGUGeO13IJFu3HPL84t4bslZ5mS9fnmfixNY3BF8RjhyNCww",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVhEqEi663nAywYgDCICrXtOodMEQfU_6MwMcxlrGQy9z7V1ypAJwKppZaZ3KzNvOLB274gSFtxt5-fZkrpageTJ7W8mgkg2q9IXBCCPAXtTAEMPNA6jONZ1PTd3ZC48ILo53F4DZ17MP5kAedVoJxb76VvqFdWgzbg5FMG-63dsIWp5g1PWMXoAo",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzhCf6CdiO4bYyghovwK18qw90KZPa1CCw8tOfYgGeMXLaL4FePdjAQNo-Des5Mgre2NS-nO3wBcfmH1nPVMQakwFP7PMP81JEtd4DOicsknXTDLiBGJzgqBAX-opfcqOmAIIljA9AGUGeO13IJFu3HPL84t4bslZ5mS9fnmfixNY3BF8RjhyNCww",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVhEqEi663nAywYgDCICrXtOodMEQfU_6MwMcxlrGQy9z7V1ypAJwKppZaZ3KzNvOLB274gSFtxt5-fZkrpageTJ7W8mgkg2q9IXBCCPAXtTAEMPNA6jONZ1PTd3ZC48ILo53F4DZ17MP5kAedVoJxb76VvqFdWgzbg5FMG-63dsIWp5g1PWMXoAo",
               "",
               "",
               ""
@@ -4689,7 +4689,7 @@
           {
             "url": "https://freeacademy.ai/blog/what-is-an-llm-beginners-guide-2026",
             "title": "What Is an LLM? Beginner's Guide to AI in 2026",
-            "content": "2026年4月18日 · What is an LLM? A clear, beginner-friendly guide to large language models, how they work, why they matter, and …阅读更多",
+            "content": "2026年4月18日 · What is an LLM? A clear, beginner-friendly guide to large language models, how they work, why they matter, and …",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -4789,7 +4789,7 @@
           {
             "url": "https://en.m.wikipedia.org/wiki/Master_of_Laws",
             "title": "Master of Laws - Wikipedia",
-            "content": "A Master of Laws (M.L. or LL.M.; Latin: Magister Legum or Legum Magister) is a postgraduate academic degree, pursued by those …阅读更多",
+            "content": "A Master of Laws (M.L. or LL.M.; Latin: Magister Legum or Legum Magister) is a postgraduate academic degree, pursued by those …",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -4817,7 +4817,7 @@
           {
             "template": "default.html",
             "title": "如何让本地大模型秒变智能搜索神器？LLM_Web_search ...",
-            "content": "LLM_Web_search 是一款为本地语言模型赋能网页搜索能力的开源工具，通过与文本生成界面无缝集成，让AI能够实时获取网络信息并生成更精准的回答。 无论是学习研究还是日常查询，它都能突破模型知识库限制，成为你的智能助手。 🌟 为什么选择LLM_Web ...",
+            "content": "LLM_Web_search 是一款为本地语言模型赋能网页搜索能力的开源工具，通过与文本生成界面无缝集成，让AI能够实时获取网络信息并生成更精准的回答。 无论是学习研究还是日常查询，它都能突破模型知识库限制，成为你的智能助手。 🌟 为什么选择LLM_Web_search？",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
@@ -4853,7 +4853,7 @@
           {
             "url": "https://hai.stanford.edu/ai-definitions/what-is-a-llm",
             "title": "What is a Large Language Model (LLM)? | Stanford HAI",
-            "content": "A Large Language Model is an AI system trained on massive amounts of text data to understand and generate human-like language. …阅读更多",
+            "content": "A Large Language Model is an AI system trained on massive amounts of text data to understand and generate human-like language. …",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -4880,8 +4880,8 @@
           },
           {
             "template": "default.html",
-            "title": "GitHub - bdambrosio/llmsearch: llm enhanced web search",
-            "content": "Release 1.0 is designed as a single-user version of web search for LLMs, with a single global curation file, and no tools for editting it (use your favorite text editor on sites.json)",
+            "title": "LLM_Web_search_OWUI - GitHub",
+            "content": "This repo contains the source code of the LLM Web Search tool for Open WebUI. The code is LLM_Web_search ported to Open WebUI, retaining as much functionality as possible given the different environments.",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
@@ -4903,12 +4903,12 @@
             ],
             "score": 0.14285714285714285,
             "category": "general",
-            "url": "https://github.com/bdambrosio/llmsearch",
+            "url": "https://github.com/mamei16/LLM_Web_search_OWUI",
             "engine": "duckduckgo",
             "parsed_url": [
               "https",
               "github.com",
-              "/bdambrosio/llmsearch",
+              "/mamei16/LLM_Web_search_OWUI",
               "",
               "",
               ""
@@ -4917,7 +4917,7 @@
           {
             "url": "https://www.llmboard.ai/",
             "title": "LLM Leaderboard: AI Model Rankings & Pricing | llmboard.ai",
-            "content": "2026年11月21日 · LLM Leaderboard rankings and benchmark intelligence LLM Leaderboard Use the LLM Leaderboard to compare …阅读更多",
+            "content": "2026年11月21日 · LLM Leaderboard rankings and benchmark intelligence LLM Leaderboard Use the LLM Leaderboard to compare …",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -5039,12 +5039,12 @@
             ],
             "score": 0.16666666666666666,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzhUdEiR-R7YONAxqv3MyhM3sXXoX_IFHAxJWmdjUjjpcE9r9WaG_Fwc1-4eZzJoybLpv8UTJZhzPKCLUkK29zjSAGsklkfNWa_IvFwpmKT0saT8y0XP_OuY8e75gmyRsQza3ffDPOjhSEnx1KXrfuJnf5BqMKipgA",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVhWykCASc81C953NCi359RFtGNhHzLqRxMu0fSHIR_Xp7-ikf3OyY8KWMUfQNd5FaKlvDbrb_Myn2aI5vc-7YDEH_0AyXkT9ZjEjy56HY78AAYjwwmTYxSB6cReXJVlIAAqMPd8vpd6_Fvib-nJmHXxBc4kjE_4EG",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzhUdEiR-R7YONAxqv3MyhM3sXXoX_IFHAxJWmdjUjjpcE9r9WaG_Fwc1-4eZzJoybLpv8UTJZhzPKCLUkK29zjSAGsklkfNWa_IvFwpmKT0saT8y0XP_OuY8e75gmyRsQza3ffDPOjhSEnx1KXrfuJnf5BqMKipgA",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVhWykCASc81C953NCi359RFtGNhHzLqRxMu0fSHIR_Xp7-ikf3OyY8KWMUfQNd5FaKlvDbrb_Myn2aI5vc-7YDEH_0AyXkT9ZjEjy56HY78AAYjwwmTYxSB6cReXJVlIAAqMPd8vpd6_Fvib-nJmHXxBc4kjE_4EG",
               "",
               "",
               ""
@@ -5111,12 +5111,12 @@
             ],
             "score": 0.14285714285714285,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzhmVPFe_PVK_rq7wh2pxHgiiTZAHI9YtqWK-0pBawnr0wgEyD1UsuDlSgQ_8MzuKq05x8f6vBnAtDaaFGLYBNFPxRguf5d70PbkPOLnC-N8xT66cppUi0V2-37SKJCDTTDdNSsDR9pn6NCg3e7D--TWr-cLOSmisOO_HbAw",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVhtSq-GhnTHuXUCZkugQpeb-Q8L-O-QM0D5kRLlRTp5xpucSXkSwdnfNaSKn-aL4Q_j5oCQ8VTj8Jo7-dMkfdfyAHT_sTxzT8qyB8HaXn-xbF4IJKYJc5pVWt3i0uH0tthGrg3QhuYV-Dz4QUWRaqt_0h4DeuHc1P9JDMBQ",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzhmVPFe_PVK_rq7wh2pxHgiiTZAHI9YtqWK-0pBawnr0wgEyD1UsuDlSgQ_8MzuKq05x8f6vBnAtDaaFGLYBNFPxRguf5d70PbkPOLnC-N8xT66cppUi0V2-37SKJCDTTDdNSsDR9pn6NCg3e7D--TWr-cLOSmisOO_HbAw",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVhtSq-GhnTHuXUCZkugQpeb-Q8L-O-QM0D5kRLlRTp5xpucSXkSwdnfNaSKn-aL4Q_j5oCQ8VTj8Jo7-dMkfdfyAHT_sTxzT8qyB8HaXn-xbF4IJKYJc5pVWt3i0uH0tthGrg3QhuYV-Dz4QUWRaqt_0h4DeuHc1P9JDMBQ",
               "",
               "",
               ""
@@ -5147,12 +5147,12 @@
             ],
             "score": 0.125,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzh_lTpIFtZSWaPI2_gnCiIosHbChJOuWiXEUwZQknPQJushVsXLOBytyRVKNQzwYWPrHaYKgPoBta-79DtzXRFvqPRFSrl_rdWdSU0ttm6m7zPYfkglP8IFUq0X29ohirX7WwyPAndHirc33qcL8ZTqf8qdIlkEs1VM4YbNOZz1i2F_BGUSZeptjaY6JKKtcqT8ndTi7dUFqXzLAFE6jq6AE",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVh6nIZS6fsPsxBaoUdsKl-1zBqeor6Iq8Aric99ncMhE5GxKAaQLmgvBW_CB5JSZTLiu_RH3zaNz9j-IcVnC5KkQUNLfP-4e8-E-KSpgbS4jcjE4sll38XWXkEDSh2pKDPYY-tPlYVFFyc5AppP2v2QuUrteVYb_wloKyALr2DEElpsdbhpYI8Ck4ZZ3xeoUo0rYI5Fpq5MxI1OgB7CH76Ak",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzh_lTpIFtZSWaPI2_gnCiIosHbChJOuWiXEUwZQknPQJushVsXLOBytyRVKNQzwYWPrHaYKgPoBta-79DtzXRFvqPRFSrl_rdWdSU0ttm6m7zPYfkglP8IFUq0X29ohirX7WwyPAndHirc33qcL8ZTqf8qdIlkEs1VM4YbNOZz1i2F_BGUSZeptjaY6JKKtcqT8ndTi7dUFqXzLAFE6jq6AE",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVh6nIZS6fsPsxBaoUdsKl-1zBqeor6Iq8Aric99ncMhE5GxKAaQLmgvBW_CB5JSZTLiu_RH3zaNz9j-IcVnC5KkQUNLfP-4e8-E-KSpgbS4jcjE4sll38XWXkEDSh2pKDPYY-tPlYVFFyc5AppP2v2QuUrteVYb_wloKyALr2DEElpsdbhpYI8Ck4ZZ3xeoUo0rYI5Fpq5MxI1OgB7CH76Ak",
               "",
               "",
               ""
@@ -5219,12 +5219,12 @@
             ],
             "score": 0.1111111111111111,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZziAoJdG_JHPtETz92MdhExIn73Db8PU1r7iVqfAck9o7FzkXRlsLeWLYNjep0dOM3fTb7zvb73bihGAC75MZy4PyF9V4q738D7xiXAXHZBsx6n1j-vtXZJw-gnCIaMzg-JLN_7W2IYISzpOkjcCuKpZE_gwDOqxnkBNdgRVByftRgLCbXEcRXPdM_Qf694JGh47JWM9ceAYFD5A8",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSViLlpzhinIFLBmOHtM-meFkpbzGHXh1sogZqwJqFdq558D520ejmOOd-riZfrTu00l1KAp_I63tdhuiAJNZ9tcTTjB28GpSz_jb6WxYgo8SQ3b7Bshq4gS2l8EQ7RZq3H4v0ARsXwTFUxM_YeTr_xNquKr36tC8yRNBiqhRV0tbBvk9sZIQdoWW8MIe-hbFuWq1voiVy6vyoXVA0",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZziAoJdG_JHPtETz92MdhExIn73Db8PU1r7iVqfAck9o7FzkXRlsLeWLYNjep0dOM3fTb7zvb73bihGAC75MZy4PyF9V4q738D7xiXAXHZBsx6n1j-vtXZJw-gnCIaMzg-JLN_7W2IYISzpOkjcCuKpZE_gwDOqxnkBNdgRVByftRgLCbXEcRXPdM_Qf694JGh47JWM9ceAYFD5A8",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSViLlpzhinIFLBmOHtM-meFkpbzGHXh1sogZqwJqFdq558D520ejmOOd-riZfrTu00l1KAp_I63tdhuiAJNZ9tcTTjB28GpSz_jb6WxYgo8SQ3b7Bshq4gS2l8EQ7RZq3H4v0ARsXwTFUxM_YeTr_xNquKr36tC8yRNBiqhRV0tbBvk9sZIQdoWW8MIe-hbFuWq1voiVy6vyoXVA0",
               "",
               "",
               ""
@@ -5291,12 +5291,48 @@
             ],
             "score": 0.1,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZziYtU5iQYbIpwu6gR18Ns2Ii9ow3xEg2Fetk7j0mazs18uPCo7WyVNtFrKbzzBIuGZv2_c47vtA6UrXCZIMtMH7F8Q1l7XR0xd29OBeG1PS35Qhiq0cURxF6F_fI-jWGcUwAkFL2_1lZ6OWjMaYlRmFmpxljb-1MQ7H1CQKA1wJFjsb7H_L4D",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVicOapFI4iY5nwQ6HSVOhYRS30nTR-pF1BoLMSBgKREIMW2sPx74tk7Q2IaGUTkUt3C_kUroNn0O75Bpb2XvcxF6t5o6rudQDRnifwn1gNOPmEYnL5qDWkgXTYYWmnwuUipOONM2OcUSsK_1S4f0sSD3VDkpWrEhXQXZX8IcUunBZOoRpdjQB",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZziYtU5iQYbIpwu6gR18Ns2Ii9ow3xEg2Fetk7j0mazs18uPCo7WyVNtFrKbzzBIuGZv2_c47vtA6UrXCZIMtMH7F8Q1l7XR0xd29OBeG1PS35Qhiq0cURxF6F_fI-jWGcUwAkFL2_1lZ6OWjMaYlRmFmpxljb-1MQ7H1CQKA1wJFjsb7H_L4D",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVicOapFI4iY5nwQ6HSVOhYRS30nTR-pF1BoLMSBgKREIMW2sPx74tk7Q2IaGUTkUt3C_kUroNn0O75Bpb2XvcxF6t5o6rudQDRnifwn1gNOPmEYnL5qDWkgXTYYWmnwuUipOONM2OcUSsK_1S4f0sSD3VDkpWrEhXQXZX8IcUunBZOoRpdjQB",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "template": "default.html",
+            "title": "如何让本地大模型拥有实时搜索能力？LLM_Web_search ...",
+            "content": "你是否曾经遇到过本地大模型回答过时信息的尴尬？ 当AI无法回答最新新闻、实时数据或最新技术动态时，LLM_Web_search正是你需要的终极解决方案。 这款免费开源工具能让任何本地语言模型瞬间获得实时网页搜索能力，突破训练数据限制，成为真正智能的助手。",
+            "img_src": "",
+            "iframe_src": "",
+            "audio_src": "",
+            "thumbnail": "",
+            "publishedDate": null,
+            "pubdate": "",
+            "length": null,
+            "views": "",
+            "author": "",
+            "metadata": "",
+            "priority": "",
+            "engines": [
+              "duckduckgo"
+            ],
+            "open_group": false,
+            "close_group": false,
+            "positions": [
+              8
+            ],
+            "score": 0.125,
+            "category": "general",
+            "url": "https://adg.csdn.net/6a69932010ee7a33f293d72b.html",
+            "engine": "duckduckgo",
+            "parsed_url": [
+              "https",
+              "adg.csdn.net",
+              "/6a69932010ee7a33f293d72b.html",
               "",
               "",
               ""
@@ -5305,7 +5341,7 @@
           {
             "url": "https://hls.harvard.edu/graduate-program/ll-m-program/",
             "title": "LL.M. Program - Harvard Law School",
-            "content": "The LL.M. (Master of Laws) program is a one-year degree program that typically includes 180 students from some 65 countries. The …阅读更多",
+            "content": "The LL.M. (Master of Laws) program is a one-year degree program that typically includes 180 students from some 65 countries. The …",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -5331,45 +5367,9 @@
             "iframe_src": null
           },
           {
-            "template": "default.html",
-            "title": "如何让本地大模型拥有实时搜索能力？LLM_Web_search ...",
-            "content": "你是否曾经遇到过本地大模型回答过时信息的尴尬？ 当AI无法回答最新新闻、实时数据或最新技术动态时，LLM_Web_search正是你需要的终极解决方案。 这款免费开源工具能让任何本地语言模型瞬间获得实时网页搜索能力，突破训练数据限制，成为真正智能 ...",
-            "img_src": "",
-            "iframe_src": "",
-            "audio_src": "",
-            "thumbnail": "",
-            "publishedDate": null,
-            "pubdate": "",
-            "length": null,
-            "views": "",
-            "author": "",
-            "metadata": "",
-            "priority": "",
-            "engines": [
-              "duckduckgo"
-            ],
-            "open_group": false,
-            "close_group": false,
-            "positions": [
-              9
-            ],
-            "score": 0.1111111111111111,
-            "category": "general",
-            "url": "https://adg.csdn.net/6a69932010ee7a33f293d72b.html",
-            "engine": "duckduckgo",
-            "parsed_url": [
-              "https",
-              "adg.csdn.net",
-              "/6a69932010ee7a33f293d72b.html",
-              "",
-              "",
-              ""
-            ]
-          },
-          {
             "url": "https://www.geeksforgeeks.org/deep-learning/large-language-model-llm-tutorial/",
             "title": "Large Language Model (LLM) Tutorial - GeeksforGeeks",
-            "content": "2026年9月24日 · Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners …阅读更多",
+            "content": "2026年9月24日 · Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners …",
             "engine": "bing",
             "template": "default.html",
             "parsed_url": [
@@ -5397,7 +5397,7 @@
           {
             "template": "default.html",
             "title": "联网搜索 - 智谱ai开放文档",
-            "content": "Web Search API 是一个专给大模型用的搜索引擎，在传统搜索引擎网页读取、排序的能力基础上，增强了意图识别能力，返回更适合大模型处理的结果（网页标题、网页 URL、网页摘要、网站名称、网站图标等）。",
+            "content": "智谱为开发者提供全系列 AI 搜索工具，覆盖 基础检索（Web Search API）、问答增强（Web Search in Chat） 两大服务，基于统一 API 接口集成自研引擎及第三方服务（搜狗/夸克），提供从原始网页数据抓取、搜索结果与 LLM 生成融合、到多轮对话上下文管理的全链路能力 ...",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
@@ -5468,14 +5468,14 @@
           },
           {
             "template": "default.html",
-            "title": "You.com | LLM Web Search API: Connecting Language Models to Live ...",
-            "content": "An LLM web search API is a specialized web search interface designed specifically to integrate with large language models (LLMs). These APIs provide real-time web search capabilities that LLMs can use during inference to access current information, ...",
+            "title": "What is real-time web search for LLMs? | Firecrawl",
+            "content": "Real-time web search for LLMs connects a language model to live search results at inference time, letting it answer questions about current events and recently published information beyond its training cutoff.",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
-            "thumbnail": "https://imgs.search.brave.com/q8g1UKd81mhwnjBG_s3fDgEzO7sOsWsV3DnkZ8X9oJE/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/ODdmMmRjYTBjYmU2/MWRmNzQ2NzBkNWIv/NmE4MzVlYWM3NTdk/NGQ5YWU4MDRkNzU4/XzguMTkuMjZfTExN/JTIwV2ViJTIwU2Vh/cmNoJTIwQVBJJTIw/Q29ubmVjdGluZyUy/MExhbmd1YWdlJTIw/TW9kZWxzJTIwdG8l/MjBMaXZlJTIwV2Vi/JTIwRGF0YS5wbmc",
-            "publishedDate": "2026-10-19T16:02:24",
-            "pubdate": "2026-10-19 16:02:24",
+            "thumbnail": "https://imgs.search.brave.com/cIHfXNrg5_kdQUzefx_Ye-I16XofUqKs4ptLNu6pgTY/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/ZmlyZWNyYXdsLmRl/di9vZy5wbmc",
+            "publishedDate": "2026-04-20T00:00:00",
+            "pubdate": "2026-04-20 00:00:00",
             "length": null,
             "views": "",
             "author": "",
@@ -5491,12 +5491,12 @@
             ],
             "score": 0.09090909090909091,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzin4G-LKTe8Ltn0Lqun6s5TtmPOaEELJnWcGVAGXdnJn3UwXIbYBHKhku_mUUr1hLNZRCbSPAe18KJKU4JveByfu0qEwTkbCjUIGQ7GHLeW-jsGWPx4tElMaOhLvmNuZv2yeWvWWddiBNpHEFnIrKVSg7ID5G_NsofEbbVUgv3G4P",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVitE9cFIzIl5YPeon2TiYn_7eOSFsqmKEpxkxhJ3yqqURajcahBAMYY6RdsLvFonWTmvGl3Pcz3JXYBFY4VFBvi0OnJb5wemZ0Q7deq1GqXr0w7o2nxsKeLqIUdTJ-9KOL0CArRDIBW8nm-TfaK39ClmbXWUGdWzw4WASfYERPhCawIsu-Lpu4BK6C0-tuyfyeb66znFZ72tI9DcG1Kh4jAQ",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzin4G-LKTe8Ltn0Lqun6s5TtmPOaEELJnWcGVAGXdnJn3UwXIbYBHKhku_mUUr1hLNZRCbSPAe18KJKU4JveByfu0qEwTkbCjUIGQ7GHLeW-jsGWPx4tElMaOhLvmNuZv2yeWvWWddiBNpHEFnIrKVSg7ID5G_NsofEbbVUgv3G4P",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVitE9cFIzIl5YPeon2TiYn_7eOSFsqmKEpxkxhJ3yqqURajcahBAMYY6RdsLvFonWTmvGl3Pcz3JXYBFY4VFBvi0OnJb5wemZ0Q7deq1GqXr0w7o2nxsKeLqIUdTJ-9KOL0CArRDIBW8nm-TfaK39ClmbXWUGdWzw4WASfYERPhCawIsu-Lpu4BK6C0-tuyfyeb66znFZ72tI9DcG1Kh4jAQ",
               "",
               "",
               ""
@@ -5540,14 +5540,14 @@
           },
           {
             "template": "default.html",
-            "title": "What is real-time web search for LLMs? | Firecrawl",
-            "content": "Real-time web search for LLMs connects a language model to live search results at inference time, letting it answer questions about current events and recently published information beyond its training cutoff.",
+            "title": "You.com | LLM Web Search API: Connecting Language Models to Live ...",
+            "content": "An LLM web search API is a specialized web search interface designed specifically to integrate with large language models (LLMs). These APIs provide real-time web search capabilities that LLMs can use during inference to access current information, ...",
             "img_src": "",
             "iframe_src": "",
             "audio_src": "",
-            "thumbnail": "https://imgs.search.brave.com/cIHfXNrg5_kdQUzefx_Ye-I16XofUqKs4ptLNu6pgTY/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly93d3cu/ZmlyZWNyYXdsLmRl/di9vZy5wbmc",
-            "publishedDate": "2026-04-20T00:00:00",
-            "pubdate": "2026-04-20 00:00:00",
+            "thumbnail": "https://imgs.search.brave.com/q8g1UKd81mhwnjBG_s3fDgEzO7sOsWsV3DnkZ8X9oJE/rs:fit:200:200:1:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/ODdmMmRjYTBjYmU2/MWRmNzQ2NzBkNWIv/NmE4MzVlYWM3NTdk/NGQ5YWU4MDRkNzU4/XzguMTkuMjZfTExN/JTIwV2ViJTIwU2Vh/cmNoJTIwQVBJJTIw/Q29ubmVjdGluZyUy/MExhbmd1YWdlJTIw/TW9kZWxzJTIwdG8l/MjBMaXZlJTIwV2Vi/JTIwRGF0YS5wbmc",
+            "publishedDate": "2026-10-19T16:02:24",
+            "pubdate": "2026-10-19 16:02:24",
             "length": null,
             "views": "",
             "author": "",
@@ -5563,12 +5563,12 @@
             ],
             "score": 0.08333333333333333,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzixt-DYAQ_hcY-lx_yNOPVzWkLtBj78bvYmQvNXgtL2KF_jd7TsWX3Cl7HKEeucJ6WLn04rbl9xWzKDHRlewMsrIZleq20O-wvTYShVfwz5DFid0nXgjvB7OOYCdMlhLcKkdVOWZRke-AJkvNItmkf4J_vvzGknYkxY61axvJBibBJ5wWy5qttpknpKcEfmsBkZC47kJHb-8Yfgt6PViaZgY",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVi3I2n7UJyyNZ1A_6lYSZm3HpmppQDhexWhLR3taRlGLpC9YW_BjwoywVOXRjE8AmMyX7cnLxNPS3AZ12N48PCJirxi9L1Z18n0au96d82kyxw72O9-_dHbaJ--4OcyyU9-y_xLOlPpCwkPSECCLGU2-d6Gzk0O-ylK-bBsCQnTEM",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzixt-DYAQ_hcY-lx_yNOPVzWkLtBj78bvYmQvNXgtL2KF_jd7TsWX3Cl7HKEeucJ6WLn04rbl9xWzKDHRlewMsrIZleq20O-wvTYShVfwz5DFid0nXgjvB7OOYCdMlhLcKkdVOWZRke-AJkvNItmkf4J_vvzGknYkxY61axvJBibBJ5wWy5qttpknpKcEfmsBkZC47kJHb-8Yfgt6PViaZgY",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVi3I2n7UJyyNZ1A_6lYSZm3HpmppQDhexWhLR3taRlGLpC9YW_BjwoywVOXRjE8AmMyX7cnLxNPS3AZ12N48PCJirxi9L1Z18n0au96d82kyxw72O9-_dHbaJ--4OcyyU9-y_xLOlPpCwkPSECCLGU2-d6Gzk0O-ylK-bBsCQnTEM",
               "",
               "",
               ""
@@ -5635,12 +5635,12 @@
             ],
             "score": 0.07692307692307693,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzjAF1bcJbUt4yHR43HvBaE5pNWmrSl4KAT_jUvtNitZsMgo1hzMPoC8oCA7Vk6r1VD9brf0ecghWULjttKyY2OPfrfkcGN7ZzATLD127jXCen8HUEwNSqlwjznBS15eMHEEW551BGN2N-nTMpkLXLvxX5U8e-uMtPgIkthqbooep589QH",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVjHdWigu4Sokd3RbjfnR5--tbfKDH0U-VfjlFkdWULAtNZYAvSWtNK0H7RL_Gce_mkhgY-TQZ_qxZ1dvDRmPshRDBoXavMYpnP3LQ4UB-Ug9THPzrD7_3rlkr2HydtX72-hGjd_xzqlwqFA5z8G8l_HUzQDE1LwG4vThF6tFRRikAKP0A",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzjAF1bcJbUt4yHR43HvBaE5pNWmrSl4KAT_jUvtNitZsMgo1hzMPoC8oCA7Vk6r1VD9brf0ecghWULjttKyY2OPfrfkcGN7ZzATLD127jXCen8HUEwNSqlwjznBS15eMHEEW551BGN2N-nTMpkLXLvxX5U8e-uMtPgIkthqbooep589QH",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVjHdWigu4Sokd3RbjfnR5--tbfKDH0U-VfjlFkdWULAtNZYAvSWtNK0H7RL_Gce_mkhgY-TQZ_qxZ1dvDRmPshRDBoXavMYpnP3LQ4UB-Ug9THPzrD7_3rlkr2HydtX72-hGjd_xzqlwqFA5z8G8l_HUzQDE1LwG4vThF6tFRRikAKP0A",
               "",
               "",
               ""
@@ -5671,12 +5671,12 @@
             ],
             "score": 0.07142857142857142,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzjVkUFSvHw-hyp9H3yedM4colu7ix5PPIPhEXXIt4mc7CmS8PqtTgpFzLyypY6zaoDowo8rgMcusSdy7caHsMQktWQX_XQReN5STgKzsgQS8dpnQmZaeBX9u2PXeZqQEUCNJ_S2OFncw16bZyTA5t8pJ7QWazC7cAXdl1XBEBAxdBEeUh8C6BwLA2rq8NIcB0ig_Futmm82EQuc_pUYJILo6GQlSoOYRU4gsY561IdfI2VmvGDQ",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVja4TcuHYoqwWAcRmIrmQO5zaWJRqDJVjULYp_eo6LKj3-ZjHze-YqZyRnpkfkqvSuCw2GbYOr0OUiukDExwpzLESlnHbXaaC-83-zowiQyNlYiMeIQrABTXFId4hi8Fj93AJRbrytoS51sm-l7F-G7BHP3TIKofkCfskBEtDqVDCV3EUby4zgeDKl8SJ-Ie87OXqpSuHMZIWbgux_DUXijZDhLQS1ZLr4-smVVA2q4tLwN_3CA",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzjVkUFSvHw-hyp9H3yedM4colu7ix5PPIPhEXXIt4mc7CmS8PqtTgpFzLyypY6zaoDowo8rgMcusSdy7caHsMQktWQX_XQReN5STgKzsgQS8dpnQmZaeBX9u2PXeZqQEUCNJ_S2OFncw16bZyTA5t8pJ7QWazC7cAXdl1XBEBAxdBEeUh8C6BwLA2rq8NIcB0ig_Futmm82EQuc_pUYJILo6GQlSoOYRU4gsY561IdfI2VmvGDQ",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVja4TcuHYoqwWAcRmIrmQO5zaWJRqDJVjULYp_eo6LKj3-ZjHze-YqZyRnpkfkqvSuCw2GbYOr0OUiukDExwpzLESlnHbXaaC-83-zowiQyNlYiMeIQrABTXFId4hi8Fj93AJRbrytoS51sm-l7F-G7BHP3TIKofkCfskBEtDqVDCV3EUby4zgeDKl8SJ-Ie87OXqpSuHMZIWbgux_DUXijZDhLQS1ZLr4-smVVA2q4tLwN_3CA",
               "",
               "",
               ""
@@ -5743,12 +5743,12 @@
             ],
             "score": 0.06666666666666667,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzjvI2p3MFTOBd3Q1O9NK3nJmfPtlY8iyweriaN15SwlCSYG-wRHWLA0wT17H5NmtwA8Uq5iynkETy1h1ApYQuG9IQlylKbtmUqog1JxyEt_wYBfxahcfFO3KKpuoC5Jnz1pRHl8GiI3GZZuhrji7J66nEHEhNtoG83tZqcZmJV4IgVODSIWIM_zz29f15_MCAzPO1g4yjdYvaz_BZHHLLS9EqBU7Npiy_x7RTzc7GZISG_wo",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVjjzgvrlq9Lr1brYKGdrDLSyror6Z8SiTeFDTk6wKGgPXhmu8ATzeisFNMGeN6vEf3tky9QMUF3LnHRldw7RMsmZml_qenb9ARAMcam4qF2Iaid87yKqIoKbF5nMseokP8GiW9MYZLf6K7lxgDyf-osByZkbvI0VoapPFOqpjmmSQffIXILITpQApW5XkUJstGuZPZNHt5cqdcj0sUULkSaO2xGmkjCL3_kt4iiRUjjJtkgo",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzjvI2p3MFTOBd3Q1O9NK3nJmfPtlY8iyweriaN15SwlCSYG-wRHWLA0wT17H5NmtwA8Uq5iynkETy1h1ApYQuG9IQlylKbtmUqog1JxyEt_wYBfxahcfFO3KKpuoC5Jnz1pRHl8GiI3GZZuhrji7J66nEHEhNtoG83tZqcZmJV4IgVODSIWIM_zz29f15_MCAzPO1g4yjdYvaz_BZHHLLS9EqBU7Npiy_x7RTzc7GZISG_wo",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVjjzgvrlq9Lr1brYKGdrDLSyror6Z8SiTeFDTk6wKGgPXhmu8ATzeisFNMGeN6vEf3tky9QMUF3LnHRldw7RMsmZml_qenb9ARAMcam4qF2Iaid87yKqIoKbF5nMseokP8GiW9MYZLf6K7lxgDyf-osByZkbvI0VoapPFOqpjmmSQffIXILITpQApW5XkUJstGuZPZNHt5cqdcj0sUULkSaO2xGmkjCL3_kt4iiRUjjJtkgo",
               "",
               "",
               ""
@@ -5815,12 +5815,12 @@
             ],
             "score": 0.0625,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzj8-wyQAcTrs8lZMyN6OGqCIZkOH1R3TwkdurDL6R5lvzIS1fLQr_jm3PqdYaZG31Pzj0sXBpeO8paoIw2G9D81bkT-ZxuRAII0ua3KuwdvksDnVQGkrSEhS2t4eCC0cy7yzfSMY68sJfCxOjS2WWxosljzaq-iFYSFdoSwGcT2TgxXT2SoOQ0zETGgd_AMVOkVZFMn4V8n5_1TU5OSLnDXLY2z28-qf5cgoxsrnq1zSmwU5sDA",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVjwsbeS0D3VXZF59SdNEhnzCSwlRaK6ZifaFk7DpUq6pwApBAFfsxr6pS0RfVDTQt_leWLxzuy21zpOHiMbUmJmGYDbb2BOc8QWgtHFp2dZJ6AOvzgWbw0gq58ewJLUBf46DAcY2pezIycbq5XRA8aLnHNeoTR-ED-3RauegUBTotNQZvr36SWDi4Kr88wuES-g9rHsul23Nclr9a2CHetY3IC1hlKaHN87gWbvJhj08rnB2HCg",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzj8-wyQAcTrs8lZMyN6OGqCIZkOH1R3TwkdurDL6R5lvzIS1fLQr_jm3PqdYaZG31Pzj0sXBpeO8paoIw2G9D81bkT-ZxuRAII0ua3KuwdvksDnVQGkrSEhS2t4eCC0cy7yzfSMY68sJfCxOjS2WWxosljzaq-iFYSFdoSwGcT2TgxXT2SoOQ0zETGgd_AMVOkVZFMn4V8n5_1TU5OSLnDXLY2z28-qf5cgoxsrnq1zSmwU5sDA",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVjwsbeS0D3VXZF59SdNEhnzCSwlRaK6ZifaFk7DpUq6pwApBAFfsxr6pS0RfVDTQt_leWLxzuy21zpOHiMbUmJmGYDbb2BOc8QWgtHFp2dZJ6AOvzgWbw0gq58ewJLUBf46DAcY2pezIycbq5XRA8aLnHNeoTR-ED-3RauegUBTotNQZvr36SWDi4Kr88wuES-g9rHsul23Nclr9a2CHetY3IC1hlKaHN87gWbvJhj08rnB2HCg",
               "",
               "",
               ""
@@ -5887,12 +5887,12 @@
             ],
             "score": 0.058823529411764705,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzkA5VEtq-mUW2nEDOwFUhRgKA3B2yym6kBYcRBZZ0yZrNc6jZU4Sc9X49wa0Td-OxJOBPY_MLDYVLV1qj3qu29sv1JUvQTdvmAM-PoteMUob_aIfzQe2Oc3h2MRLVswCtv5k5-9g4CeifakjVZwdZ80TQ-kYrd7C2Ko4izb4PvVCQIQI",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVkPGKYJdM848kLE36zvm5EYQtVkcuTnIyu_kVwqPz0Exy5YdNQQbARcdjxLpr8NwDq0p1LvTxYI365cFPkTqy-wknhJeSRteX07IFFAm9OKJjbG3UewN2uv-Rk5O-9s7EWx9jW2ecAzPmXCvHrLynfhFlM1gWhKRjjDxQMD8HvB6kJgI",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzkA5VEtq-mUW2nEDOwFUhRgKA3B2yym6kBYcRBZZ0yZrNc6jZU4Sc9X49wa0Td-OxJOBPY_MLDYVLV1qj3qu29sv1JUvQTdvmAM-PoteMUob_aIfzQe2Oc3h2MRLVswCtv5k5-9g4CeifakjVZwdZ80TQ-kYrd7C2Ko4izb4PvVCQIQI",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVkPGKYJdM848kLE36zvm5EYQtVkcuTnIyu_kVwqPz0Exy5YdNQQbARcdjxLpr8NwDq0p1LvTxYI365cFPkTqy-wknhJeSRteX07IFFAm9OKJjbG3UewN2uv-Rk5O-9s7EWx9jW2ecAzPmXCvHrLynfhFlM1gWhKRjjDxQMD8HvB6kJgI",
               "",
               "",
               ""
@@ -5959,12 +5959,12 @@
             ],
             "score": 0.05555555555555555,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzkUu81thAMzWFtxZMvtebxw2YailS9R6m9AeAA3l-OpGfdFKsjmdaQOEsgzHlXBGuaksc3fTUMsiiya7ahJg8inkx5T5u-ukscbQJ_NZq-BQM8ChCVLhzUMpzvA5QzEVfeOB9hzhnJqwXn5vsFTdqyXBSVYVpojtkYcDxRuy8zPe1pwo",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVkU09OA5q55oNi1RCNQ5e54xfZmjvzBEebI4xCS7QUYi7RLa7eJEAlYYlCRUyjJcbYtL6FPg1W8utcbo-O-zCXUmhaDiBqzCXJs3vSxMWGtKcGJVNJSCgBxQq1VAHRYMmeeBnxF8ip6Hy66MJVE1ov54ImWD1s8HaDOXED8QOkPDyHgM",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzkUu81thAMzWFtxZMvtebxw2YailS9R6m9AeAA3l-OpGfdFKsjmdaQOEsgzHlXBGuaksc3fTUMsiiya7ahJg8inkx5T5u-ukscbQJ_NZq-BQM8ChCVLhzUMpzvA5QzEVfeOB9hzhnJqwXn5vsFTdqyXBSVYVpojtkYcDxRuy8zPe1pwo",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVkU09OA5q55oNi1RCNQ5e54xfZmjvzBEebI4xCS7QUYi7RLa7eJEAlYYlCRUyjJcbYtL6FPg1W8utcbo-O-zCXUmhaDiBqzCXJs3vSxMWGtKcGJVNJSCgBxQq1VAHRYMmeeBnxF8ip6Hy66MJVE1ov54ImWD1s8HaDOXED8QOkPDyHgM",
               "",
               "",
               ""
@@ -6031,12 +6031,12 @@
             ],
             "score": 0.05263157894736842,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzkhq2zEbSPL_ueew0tYFEFUBFW4HHDT150HkQvorzEJi32eQbQRkx0SmkKGO4GvyAOyedE1XGfPF6IErdw94MPkUuMEBqW_nKECfjh0S-NVB7yA3yLWXNsBA6cgHoFlhBgJ7FdBUg6uue6ece-U16Oz5S7UULrVZ2tEkWQhSvQTRk_LeFaZ1bQHqUu45_63kF3WRinejVOpMZmGkLH9BEWKmH3w-VCmAI5je47C2FKQM",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVkmbZLpy8nSILgG-6UHSE8p9_3zT3gAE5OQvPVr9ZFFHQAtZIaCsJn_IW0DFNE7LwoqD1Op4E5VpByhU8TB_M4-gp0qeoSfI5YdlrbR483bsuixlL0RKYm-T1lZw-WKNnnFxEaFZbydrXoF1BRKrAZx-8gEwar5GfVuGkeKkDfw5m7twka0gmwrsaKw2jypL7gNtSDZEyZx4FKYIincGll1fxYYDsT67_N6yBsHry4gs",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzkhq2zEbSPL_ueew0tYFEFUBFW4HHDT150HkQvorzEJi32eQbQRkx0SmkKGO4GvyAOyedE1XGfPF6IErdw94MPkUuMEBqW_nKECfjh0S-NVB7yA3yLWXNsBA6cgHoFlhBgJ7FdBUg6uue6ece-U16Oz5S7UULrVZ2tEkWQhSvQTRk_LeFaZ1bQHqUu45_63kF3WRinejVOpMZmGkLH9BEWKmH3w-VCmAI5je47C2FKQM",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVkmbZLpy8nSILgG-6UHSE8p9_3zT3gAE5OQvPVr9ZFFHQAtZIaCsJn_IW0DFNE7LwoqD1Op4E5VpByhU8TB_M4-gp0qeoSfI5YdlrbR483bsuixlL0RKYm-T1lZw-WKNnnFxEaFZbydrXoF1BRKrAZx-8gEwar5GfVuGkeKkDfw5m7twka0gmwrsaKw2jypL7gNtSDZEyZx4FKYIincGll1fxYYDsT67_N6yBsHry4gs",
               "",
               "",
               ""
@@ -6103,12 +6103,12 @@
             ],
             "score": 0.05,
             "category": "general",
-            "url": "http:///go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzk9Y6e39-e3pQR4aBQUuomrYJFGi3DWpasHpxB4eR7bX7k8WFlR7ZojpadRtUcgmANtLSKMarpB7QZNG7f5NKDQ0u6-Xz6CLFkKT7o5qpGlF16fNbSfr4SbKxh2z2V7orhTUYXmAaNrZffmQd7oxFobqGGOU-dcocXdJlLPNAjGpTtekIMHAN",
+            "url": "http:///go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVk2262FHc6quJ-We3yXDojYB_a42W2JVfe3CXca0_VzaQAplCtC99L_u9V1EvWUrm8lPh5bZDkLSijgPP1LkHhPGvFjSzpDw0xJTClfA7iSe-qeeMPUdMsFz5lroNaF3FVfd9MaRev4DAsa5dcXyVarYdW7haHDguZUsJrYs-jIgWul7HfIUL",
             "engine": "brave",
             "parsed_url": [
               "http",
               "",
-              "/go/v1/Ad5dUtl6JvcMawo46AFhqPvRxddueFTYjfdH_tZzk9Y6e39-e3pQR4aBQUuomrYJFGi3DWpasHpxB4eR7bX7k8WFlR7ZojpadRtUcgmANtLSKMarpB7QZNG7f5NKDQ0u6-Xz6CLFkKT7o5qpGlF16fNbSfr4SbKxh2z2V7orhTUYXmAaNrZffmQd7oxFobqGGOU-dcocXdJlLPNAjGpTtekIMHAN",
+              "/go/v1/AfU3QqRkgo_rawpJjAFAy8zfdv63gzVcM41ykuSVk2262FHc6quJ-We3yXDojYB_a42W2JVfe3CXca0_VzaQAplCtC99L_u9V1EvWUrm8lPh5bZDkLSijgPP1LkHhPGvFjSzpDw0xJTClfA7iSe-qeeMPUdMsFz5lroNaF3FVfd9MaRev4DAsa5dcXyVarYdW7haHDguZUsJrYs-jIgWul7HfIUL",
               "",
               "",
               ""
@@ -6299,16 +6299,16 @@
         "corrections": [],
         "infoboxes": [],
         "suggestions": [
-          "web search api free",
-          "llm api web search",
-          "brave search api",
-          "ローカルllm web検索",
+          "best llm web search",
           "llm web search tool",
           "web agent",
+          "local llm web search",
           "llm web browsing",
-          "best llm web search",
+          "web search api free",
+          "ローカルllm web検索",
+          "llm api web search",
           "検索api 無料",
-          "local llm web search"
+          "brave search api"
         ],
         "unresponsive_engines": [
           [
